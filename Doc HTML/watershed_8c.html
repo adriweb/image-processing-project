@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI: Référence du fichier watershed.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier watershed.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="watershed_8h_source.html">watershed.h</a>&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de watershed.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c__incl.png" border="0" usemap="#watershed_8c" alt=""/></div>
+<map name="watershed_8c" id="watershed_8c">
+<area shape="rect" id="node2" href="watershed_8h.html" title="watershed.h" alt="" coords="261,80,352,107"/><area shape="rect" id="node3" href="common_8h.html" title="common.h" alt="" coords="265,155,348,181"/><area shape="rect" id="node11" href="_bmp_lib_8h.html" title="BmpLib.h" alt="" coords="580,229,657,256"/></map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a0cd89a1892813868dbc0de56a80dfdcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a0cd89a1892813868dbc0de56a80dfdcf">getNeighbors</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **src, <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> x, <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> y)</td></tr>
+<tr class="memdesc:a0cd89a1892813868dbc0de56a80dfdcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">\ TO FIX ! /!\  <a href="#a0cd89a1892813868dbc0de56a80dfdcf">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a0cd89a1892813868dbc0de56a80dfdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91bd7bce0ecb92115f7f7298bd9a2c43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a91bd7bce0ecb92115f7f7298bd9a2c43">aNeighborIsLower</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> n)</td></tr>
+<tr class="separator:a91bd7bce0ecb92115f7f7298bd9a2c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6172450ed6649ab8ab73802bcecb1ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#af6172450ed6649ab8ab73802bcecb1ff">aNeighborIsEqual</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> n)</td></tr>
+<tr class="separator:af6172450ed6649ab8ab73802bcecb1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96dc86101d1f93b30bc7078a1a597f19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a96dc86101d1f93b30bc7078a1a597f19">aNeighborIsADifferentMarker</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb, <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> n)</td></tr>
+<tr class="separator:a96dc86101d1f93b30bc7078a1a597f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77505c95e394a38b7524cd86568fca4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a77505c95e394a38b7524cd86568fca4f">getMinima</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src)</td></tr>
+<tr class="memdesc:a77505c95e394a38b7524cd86568fca4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un tableau de "marqueurs" où se trouvent les minima et plateaux de l'image source (niveau-de-gris)  <a href="#a77505c95e394a38b7524cd86568fca4f">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a77505c95e394a38b7524cd86568fca4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7225d35b3bcf670fa4b11a0dcc071a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a">image_flooding_overlay</a> (<a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="el" href="_t_d2-_t_d_i_8h.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>, <a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a> watershed_mask)</td></tr>
+<tr class="memdesc:abf7225d35b3bcf670fa4b11a0dcc071a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dessine le "masque" du watershed par dessus l'image donnée.  <a href="#abf7225d35b3bcf670fa4b11a0dcc071a">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abf7225d35b3bcf670fa4b11a0dcc071a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6225e04154e1675ff28fbe234690bec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#aa6225e04154e1675ff28fbe234690bec">getNumberOfMarkersInNeighboors</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb)</td></tr>
+<tr class="separator:aa6225e04154e1675ff28fbe234690bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4baedf33e60ecdf7c5c9c27110236fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#ab4baedf33e60ecdf7c5c9c27110236fd">get_the_nb_marker</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb)</td></tr>
+<tr class="separator:ab4baedf33e60ecdf7c5c9c27110236fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20a77cc704c1ecb8c6d1ccfd85270de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#af20a77cc704c1ecb8c6d1ccfd85270de">areTheMarkersDifferent</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **nb)</td></tr>
+<tr class="separator:af20a77cc704c1ecb8c6d1ccfd85270de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a708e02d06b89cb9c5c3ef0dbe1583"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#ad7a708e02d06b89cb9c5c3ef0dbe1583">old_ws_flooding</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src)</td></tr>
+<tr class="memdesc:ad7a708e02d06b89cb9c5c3ef0dbe1583"><td class="mdescLeft">&#160;</td><td class="mdescRight">(obsolete) différentes valeurs pour la minmap  <a href="#ad7a708e02d06b89cb9c5c3ef0dbe1583">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ad7a708e02d06b89cb9c5c3ef0dbe1583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe37a2f43ae7501ab92bf4d04ddad62a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a">ws_water_grow</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src, <a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a> map, int x, int y, <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> label)</td></tr>
+<tr class="memdesc:abe37a2f43ae7501ab92bf4d04ddad62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">montée de l'eau  <a href="#abe37a2f43ae7501ab92bf4d04ddad62a">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abe37a2f43ae7501ab92bf4d04ddad62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6abd3aeb667b14f6a43d663b648dcdc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8">ws_flooding</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src)</td></tr>
+<tr class="memdesc:a6abd3aeb667b14f6a43d663b648dcdc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">essai d'algo de watershed  <a href="#a6abd3aeb667b14f6a43d663b648dcdc8">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a6abd3aeb667b14f6a43d663b648dcdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a682d177cea851ab1416b0964f09a9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="watershed_8c.html#a6a682d177cea851ab1416b0964f09a9f">watershed</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src, <a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *img)</td></tr>
+<tr class="memdesc:a6a682d177cea851ab1416b0964f09a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">appelant de l'algo du watershed  <a href="#a6a682d177cea851ab1416b0964f09a9f">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a6a682d177cea851ab1416b0964f09a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a class="anchor" id="a96dc86101d1f93b30bc7078a1a597f19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool aNeighborIsADifferentMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6172450ed6649ab8ab73802bcecb1ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool aNeighborIsEqual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_af6172450ed6649ab8ab73802bcecb1ff_icgraph.png" border="0" usemap="#watershed_8c_af6172450ed6649ab8ab73802bcecb1ff_icgraph" alt=""/></div>
+<map name="watershed_8c_af6172450ed6649ab8ab73802bcecb1ff_icgraph" id="watershed_8c_af6172450ed6649ab8ab73802bcecb1ff_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f" title="Retourne un tableau de &quot;marqueurs&quot; où se trouvent les minima et plateaux de l&#39;image source (niveau&#45;..." alt="" coords="179,5,261,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a91bd7bce0ecb92115f7f7298bd9a2c43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool aNeighborIsLower </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a91bd7bce0ecb92115f7f7298bd9a2c43_icgraph.png" border="0" usemap="#watershed_8c_a91bd7bce0ecb92115f7f7298bd9a2c43_icgraph" alt=""/></div>
+<map name="watershed_8c_a91bd7bce0ecb92115f7f7298bd9a2c43_icgraph" id="watershed_8c_a91bd7bce0ecb92115f7f7298bd9a2c43_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f" title="Retourne un tableau de &quot;marqueurs&quot; où se trouvent les minima et plateaux de l&#39;image source (niveau&#45;..." alt="" coords="179,5,261,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af20a77cc704c1ecb8c6d1ccfd85270de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool areTheMarkersDifferent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_cgraph.png" border="0" usemap="#watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_cgraph" alt=""/></div>
+<map name="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_cgraph" id="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_cgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#ab4baedf33e60ecdf7c5c9c27110236fd" title="get_the_nb_marker" alt="" coords="213,5,347,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_icgraph.png" border="0" usemap="#watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_icgraph" alt=""/></div>
+<map name="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_icgraph" id="watershed_8c_af20a77cc704c1ecb8c6d1ccfd85270de_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583" title="(obsolete) différentes valeurs pour la minmap " alt="" coords="213,5,328,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4baedf33e60ecdf7c5c9c27110236fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> get_the_nb_marker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_ab4baedf33e60ecdf7c5c9c27110236fd_icgraph.png" border="0" usemap="#watershed_8c_ab4baedf33e60ecdf7c5c9c27110236fd_icgraph" alt=""/></div>
+<map name="watershed_8c_ab4baedf33e60ecdf7c5c9c27110236fd_icgraph" id="watershed_8c_ab4baedf33e60ecdf7c5c9c27110236fd_icgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#af20a77cc704c1ecb8c6d1ccfd85270de" title="areTheMarkersDifferent" alt="" coords="187,5,346,32"/><area shape="rect" id="node3" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583" title="(obsolete) différentes valeurs pour la minmap " alt="" coords="395,31,509,57"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a77505c95e394a38b7524cd86568fca4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** getMinima </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retourne un tableau de "marqueurs" où se trouvent les minima et plateaux de l'image source (niveau-de-gris) </p>
+<p>Marqueurs : 0 == default (ni minimum, ni plateau), 1 == minimum, 2 == plateau </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>Pointeur vers le tableau représentant l'image source (niveau-de-gris) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Pointeur vers le tableau de marqueurs. </dd></dl>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a77505c95e394a38b7524cd86568fca4f_cgraph.png" border="0" usemap="#watershed_8c_a77505c95e394a38b7524cd86568fca4f_cgraph" alt=""/></div>
+<map name="watershed_8c_a77505c95e394a38b7524cd86568fca4f_cgraph" id="watershed_8c_a77505c95e394a38b7524cd86568fca4f_cgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#a0cd89a1892813868dbc0de56a80dfdcf" title="\ TO FIX ! /!\ " alt="" coords="149,5,248,32"/><area shape="rect" id="node3" href="watershed_8c.html#a91bd7bce0ecb92115f7f7298bd9a2c43" title="aNeighborIsLower" alt="" coords="136,56,261,83"/><area shape="rect" id="node4" href="watershed_8c.html#af6172450ed6649ab8ab73802bcecb1ff" title="aNeighborIsEqual" alt="" coords="137,107,261,133"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0cd89a1892813868dbc0de56a80dfdcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>** getNeighbors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\ TO FIX ! /!\ </p>
+<p>Crée un tableau des points voisins au point donné </p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a0cd89a1892813868dbc0de56a80dfdcf_icgraph.png" border="0" usemap="#watershed_8c_a0cd89a1892813868dbc0de56a80dfdcf_icgraph" alt=""/></div>
+<map name="watershed_8c_a0cd89a1892813868dbc0de56a80dfdcf_icgraph" id="watershed_8c_a0cd89a1892813868dbc0de56a80dfdcf_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f" title="Retourne un tableau de &quot;marqueurs&quot; où se trouvent les minima et plateaux de l&#39;image source (niveau&#45;..." alt="" coords="168,5,251,32"/><area shape="rect" id="node3" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583" title="(obsolete) différentes valeurs pour la minmap " alt="" coords="152,56,267,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6225e04154e1675ff28fbe234690bec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> getNumberOfMarkersInNeighboors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> **&#160;</td>
+          <td class="paramname"><em>nb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_aa6225e04154e1675ff28fbe234690bec_icgraph.png" border="0" usemap="#watershed_8c_aa6225e04154e1675ff28fbe234690bec_icgraph" alt=""/></div>
+<map name="watershed_8c_aa6225e04154e1675ff28fbe234690bec_icgraph" id="watershed_8c_aa6225e04154e1675ff28fbe234690bec_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583" title="(obsolete) différentes valeurs pour la minmap " alt="" coords="277,5,392,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abf7225d35b3bcf670fa4b11a0dcc071a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void image_flooding_overlay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a>&#160;</td>
+          <td class="paramname"><em>watershed_mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dessine le "masque" du watershed par dessus l'image donnée. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>Pointeur vers l'image de destination </td></tr>
+    <tr><td class="paramname">watershed_mask</td><td>la floodmap du watershed ("masque") </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_abf7225d35b3bcf670fa4b11a0dcc071a_icgraph.png" border="0" usemap="#watershed_8c_abf7225d35b3bcf670fa4b11a0dcc071a_icgraph" alt=""/></div>
+<map name="watershed_8c_abf7225d35b3bcf670fa4b11a0dcc071a_icgraph" id="watershed_8c_abf7225d35b3bcf670fa4b11a0dcc071a_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="214,29,295,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="344,29,435,56"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="483,29,583,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7a708e02d06b89cb9c5c3ef0dbe1583"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>** old_ws_flooding </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(obsolete) différentes valeurs pour la minmap </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_ad7a708e02d06b89cb9c5c3ef0dbe1583_cgraph.png" border="0" usemap="#watershed_8c_ad7a708e02d06b89cb9c5c3ef0dbe1583_cgraph" alt=""/></div>
+<map name="watershed_8c_ad7a708e02d06b89cb9c5c3ef0dbe1583_cgraph" id="watershed_8c_ad7a708e02d06b89cb9c5c3ef0dbe1583_cgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#a0cd89a1892813868dbc0de56a80dfdcf" title="\ TO FIX ! /!\ " alt="" coords="231,5,329,32"/><area shape="rect" id="node3" href="watershed_8c.html#aa6225e04154e1675ff28fbe234690bec" title="getNumberOfMarkersInNeighboors" alt="" coords="169,56,391,83"/><area shape="rect" id="node4" href="watershed_8c.html#ab4baedf33e60ecdf7c5c9c27110236fd" title="get_the_nb_marker" alt="" coords="440,132,573,159"/><area shape="rect" id="node5" href="watershed_8c.html#af20a77cc704c1ecb8c6d1ccfd85270de" title="areTheMarkersDifferent" alt="" coords="201,157,359,184"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a682d177cea851ab1416b0964f09a9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void watershed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td>
+          <td class="paramname"><em>img</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appelant de l'algo du watershed </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_cgraph.png" border="0" usemap="#watershed_8c_a6a682d177cea851ab1416b0964f09a9f_cgraph" alt=""/></div>
+<map name="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_cgraph" id="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_cgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8" title="essai d&#39;algo de watershed " alt="" coords="171,5,261,32"/><area shape="rect" id="node4" href="watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a" title="Dessine le &quot;masque&quot; du watershed par dessus l&#39;image donnée. " alt="" coords="137,56,295,83"/><area shape="rect" id="node3" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a" title="montée de l&#39;eau " alt="" coords="345,5,455,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_icgraph.png" border="0" usemap="#watershed_8c_a6a682d177cea851ab1416b0964f09a9f_icgraph" alt=""/></div>
+<map name="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_icgraph" id="watershed_8c_a6a682d177cea851ab1416b0964f09a9f_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="136,29,227,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="275,29,375,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6abd3aeb667b14f6a43d663b648dcdc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a> ws_flooding </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>essai d'algo de watershed </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_cgraph.png" border="0" usemap="#watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_cgraph" alt=""/></div>
+<map name="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_cgraph" id="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_cgraph">
+<area shape="rect" id="node2" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a" title="montée de l&#39;eau " alt="" coords="145,5,255,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_icgraph.png" border="0" usemap="#watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_icgraph" alt=""/></div>
+<map name="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_icgraph" id="watershed_8c_a6abd3aeb667b14f6a43d663b648dcdc8_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="145,29,226,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="275,29,365,56"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="414,29,514,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abe37a2f43ae7501ab92bf4d04ddad62a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ws_water_grow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a>&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>montée de l'eau </p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="watershed_8c_abe37a2f43ae7501ab92bf4d04ddad62a_icgraph.png" border="0" usemap="#watershed_8c_abe37a2f43ae7501ab92bf4d04ddad62a_icgraph" alt=""/></div>
+<map name="watershed_8c_abe37a2f43ae7501ab92bf4d04ddad62a_icgraph" id="watershed_8c_abe37a2f43ae7501ab92bf4d04ddad62a_icgraph">
+<area shape="rect" id="node2" href="watershed_8h.html#a6abd3aeb667b14f6a43d663b648dcdc8" title="essai d&#39;algo de watershed " alt="" coords="165,29,256,56"/><area shape="rect" id="node3" href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="305,29,386,56"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="435,29,525,56"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="574,29,674,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

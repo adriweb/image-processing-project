@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>870</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QScrollArea" name="scrollArea_2">
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>420</width>
+         <height>333</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="modifiedImage">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>Veuillez appliquer un filtre...</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>420</width>
+         <height>333</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="sourceImage">
+          <property name="text">
+           <string>Veuillez charger une image.</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Image d'origine</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Image modifiée</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionOuvrir_image_source"/>
+    <addaction name="actionR_initialiser_l_image_modifi_e"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>?</string>
+    </property>
+    <addaction name="actionA_propos"/>
+   </widget>
+   <widget class="QMenu" name="menuFiltres">
+    <property name="title">
+     <string>Filtres</string>
+    </property>
+    <widget class="QMenu" name="menuD_tection_de_bords">
+     <property name="title">
+      <string>Détection de bords...</string>
+     </property>
+     <addaction name="actionSobel"/>
+     <addaction name="actionPrewitt"/>
+     <addaction name="actionRoberts"/>
+    </widget>
+    <widget class="QMenu" name="menuAutres">
+     <property name="title">
+      <string>Autres...</string>
+     </property>
+     <addaction name="actionLaplacien_4"/>
+     <addaction name="actionLaplacien_8"/>
+     <addaction name="actionM_dian"/>
+     <addaction name="actionSeuil_manuel"/>
+     <addaction name="actionSeuil_automatique"/>
+    </widget>
+    <widget class="QMenu" name="menuPond_r_s">
+     <property name="title">
+      <string>Pondérés...</string>
+     </property>
+     <widget class="QMenu" name="menuGaussien">
+      <property name="title">
+       <string>Gaussien...</string>
+      </property>
+      <addaction name="action3x3"/>
+      <addaction name="action5x5"/>
+      <addaction name="actionPersonnalis"/>
+     </widget>
+     <addaction name="actionMoyenneur"/>
+     <addaction name="menuGaussien"/>
+    </widget>
+    <widget class="QMenu" name="menuMorphologiques">
+     <property name="title">
+      <string>Morphologiques</string>
+     </property>
+     <addaction name="actionDilatation"/>
+     <addaction name="actionErosion"/>
+     <addaction name="actionOpening"/>
+     <addaction name="actionClosing"/>
+    </widget>
+    <addaction name="menuPond_r_s"/>
+    <addaction name="menuD_tection_de_bords"/>
+    <addaction name="menuMorphologiques"/>
+    <addaction name="menuAutres"/>
+   </widget>
+   <widget class="QMenu" name="menuOutils">
+    <property name="title">
+     <string>Outils</string>
+    </property>
+    <addaction name="actionN_gatif"/>
+    <addaction name="actionNiveau_de_gris"/>
+    <addaction name="actionHistogramme"/>
+    <addaction name="actionHistogramme_cumul"/>
+    <addaction name="separator"/>
+    <addaction name="actionLancer_toutes_les_actions"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalyse">
+    <property name="title">
+     <string>Analyse</string>
+    </property>
+    <addaction name="actionEgalisation_d_histogramme"/>
+    <addaction name="actionWatershed"/>
+    <addaction name="actionRectangle_englobant"/>
+    <addaction name="actionR_duction_de_palette"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuOutils"/>
+   <addaction name="menuFiltres"/>
+   <addaction name="menuAnalyse"/>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionOuvrir_image_source">
+   <property name="text">
+    <string>Ouvrir l'image source...</string>
+   </property>
+   <property name="toolTip">
+    <string>Ouvrir l'image source...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionA_propos">
+   <property name="text">
+    <string>A propos...</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_l_image_modifi_e">
+   <property name="text">
+    <string>Enregistrer l'image modifiée...</string>
+   </property>
+  </action>
+  <action name="actionN_gatif">
+   <property name="text">
+    <string>Négatif</string>
+   </property>
+  </action>
+  <action name="actionNiveau_de_gris">
+   <property name="text">
+    <string>Niveau de gris</string>
+   </property>
+  </action>
+  <action name="actionSeuillage_manuel">
+   <property name="text">
+    <string>Seuillage manuel</string>
+   </property>
+  </action>
+  <action name="actionSeuillage_automatique">
+   <property name="text">
+    <string>Seuillage automatique</string>
+   </property>
+  </action>
+  <action name="actionHistogramme">
+   <property name="text">
+    <string>Histogramme</string>
+   </property>
+  </action>
+  <action name="actionSobel">
+   <property name="text">
+    <string>Sobel</string>
+   </property>
+  </action>
+  <action name="actionPrewitt">
+   <property name="text">
+    <string>Prewitt</string>
+   </property>
+  </action>
+  <action name="actionRoberts">
+   <property name="text">
+    <string>Roberts</string>
+   </property>
+  </action>
+  <action name="actionMoyenneur">
+   <property name="text">
+    <string>Moyenneur</string>
+   </property>
+  </action>
+  <action name="action3x3">
+   <property name="text">
+    <string>3x3</string>
+   </property>
+  </action>
+  <action name="action5x5">
+   <property name="text">
+    <string>5x5</string>
+   </property>
+  </action>
+  <action name="actionPersonnalis">
+   <property name="text">
+    <string>Personnalisé...</string>
+   </property>
+  </action>
+  <action name="actionLaplacien_4">
+   <property name="text">
+    <string>Laplacien (4)</string>
+   </property>
+  </action>
+  <action name="actionLaplacien_8">
+   <property name="text">
+    <string>Laplacien (8)</string>
+   </property>
+  </action>
+  <action name="actionM_dian">
+   <property name="text">
+    <string>Médian</string>
+   </property>
+  </action>
+  <action name="actionDilatation">
+   <property name="text">
+    <string>Dilatation</string>
+   </property>
+  </action>
+  <action name="actionErosion">
+   <property name="text">
+    <string>Erosion</string>
+   </property>
+  </action>
+  <action name="actionOpening">
+   <property name="text">
+    <string>Opening</string>
+   </property>
+  </action>
+  <action name="actionClosing">
+   <property name="text">
+    <string>Closing</string>
+   </property>
+  </action>
+  <action name="actionR_initialiser_l_image_modifi_e">
+   <property name="text">
+    <string>Réinitialiser l'image modifiée</string>
+   </property>
+  </action>
+  <action name="actionSeuil_manuel">
+   <property name="text">
+    <string>Seuil manuel</string>
+   </property>
+  </action>
+  <action name="actionSeuil_automatique">
+   <property name="text">
+    <string>Seuil automatique</string>
+   </property>
+  </action>
+  <action name="actionAnalyse_d_image">
+   <property name="text">
+    <string>Analyse d'image</string>
+   </property>
+  </action>
+  <action name="actionRectangle_englobant">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Rectangle englobant</string>
+   </property>
+  </action>
+  <action name="actionEgalisation_d_histogramme">
+   <property name="text">
+    <string>Egalisation d'histogramme</string>
+   </property>
+  </action>
+  <action name="actionWatershed">
+   <property name="text">
+    <string>Watershed</string>
+   </property>
+  </action>
+  <action name="actionHistogramme_cumul">
+   <property name="text">
+    <string>Histogramme cumulé</string>
+   </property>
+  </action>
+  <action name="actionR_duction_de_la_palette">
+   <property name="text">
+    <string>Réduction de la palette</string>
+   </property>
+  </action>
+  <action name="actionLancer_toutes_les_actions">
+   <property name="text">
+    <string>Lancer toutes les actions</string>
+   </property>
+  </action>
+  <action name="actionR_duction_de_palette">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Réduction de palette</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

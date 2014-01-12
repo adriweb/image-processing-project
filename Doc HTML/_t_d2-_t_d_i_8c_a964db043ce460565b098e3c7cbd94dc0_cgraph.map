@@ -1,0 +1,44 @@
+<map id="MAIN_NAME" name="MAIN_NAME">
+<area shape="rect" id="node2" href="$_t_d2-_t_d_i_8c.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="167,157,233,184"/>
+<area shape="rect" id="node12" href="$_t_d2-_t_d_i_8c.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="155,689,245,716"/>
+<area shape="rect" id="node43" href="$_t_d2-_t_d_i_8c.html#abd3842986ee948bf12945d05232f33b8" title="Libère la mémoire utilisée par les données allouées. " alt="" coords="164,1145,236,1172"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a3e6055fa50e77005c009ba235708872d" title="strEndsWith" alt="" coords="331,183,424,209"/>
+<area shape="rect" id="node4" href="$_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="331,81,423,108"/>
+<area shape="rect" id="node9" href="$filtering_8c.html#a58253e7d6e52d149b0e526d5bebb2dea" title="Crée le tableau des filtres de base. " alt="" coords="330,132,425,159"/>
+<area shape="rect" id="node5" href="$_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="541,31,656,57"/>
+<area shape="rect" id="node8" href="$_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="533,81,664,108"/>
+<area shape="rect" id="node6" href="$_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="767,5,897,32"/>
+<area shape="rect" id="node7" href="$_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="779,56,885,83"/>
+<area shape="rect" id="node10" href="$filtering_8c.html#a28ca310899abb143bfb1f7076c9f323e" title="mask_copy_3" alt="" coords="547,132,650,159"/>
+<area shape="rect" id="node11" href="$filtering_8c.html#a14c6955680451c69de4b7a77a02d1a96" title="mask_copy_5" alt="" coords="547,183,650,209"/>
+<area shape="rect" id="node13" href="$_t_d2-_t_d_i_8c.html#abe5fd33b5e4a923167ce71017706454b" title="Sépare les composantes RGB d&#39;une image en 3 matrices. " alt="" coords="325,487,429,513"/>
+<area shape="rect" id="node14" href="$_t_d2-_t_d_i_8c.html#a2f1b599737c6980923f10c39df851d9b" title="Crée une image en niveau&#45;de&#45;gris, à partir des matrices de composantes RGB de l&#39;image couleur source..." alt="" coords="332,537,423,564"/>
+<area shape="rect" id="node15" href="$_t_d2-_t_d_i_8c.html#a0f352f01150e4ba92f0ff6a010867d48" title="Inverse in&#45;place les couleurs à partir des matrices des composantes RGB. " alt="" coords="329,588,426,615"/>
+<area shape="rect" id="node16" href="$_t_d2-_t_d_i_8c.html#af625077874700357877346213c244e2e" title="Crée dans &#39;image&#39;, l&#39;image formée par les 3 composantes couleurs RGB. " alt="" coords="336,639,419,665"/>
+<area shape="rect" id="node17" href="$_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="509,765,688,792"/>
+<area shape="rect" id="node18" href="$_t_d2-_t_d_i_8c.html#ad24d4eaa83f7f7a95566fc0eca4e2b31" title="do_Seuil" alt="" coords="341,740,413,767"/>
+<area shape="rect" id="node19" href="$_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2" title="Réalise le seuillage d&#39;une image en niveau de gris (matricielle) " alt="" coords="541,689,656,716"/>
+<area shape="rect" id="node20" href="$_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="783,841,881,868"/>
+<area shape="rect" id="node21" href="$_t_d2-_t_d_i_8c.html#afc049c9711553695dfa71cde0506b4ac" title="Crée une représentation graphique (image) de l&#39;histogramme. " alt="" coords="310,892,445,919"/>
+<area shape="rect" id="node23" href="$_t_d2-_t_d_i_8c.html#abcde85a3241102a2fef9ccce4d2e7c86" title="Teste si les couleurs RGB en paramètres sont égales. " alt="" coords="545,841,652,868"/>
+<area shape="rect" id="node24" href="$filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8" title="Applique un filtre sur une image en niveau de gris (matricielle) " alt="" coords="556,993,641,1020"/>
+<area shape="rect" id="node28" href="$_t_d2-_t_d_i_8c.html#a048fdd6e780425ee715f31f748a8fc3b" title="do_GaussienN" alt="" coords="324,1044,431,1071"/>
+<area shape="rect" id="node32" href="$filtering_8c.html#a68333399cb34a5806069fc17be618ea0" title="Calcule le module à partir de 2 images (matricielles) niveau&#45;de&#45;gris sources. " alt="" coords="313,1095,441,1121"/>
+<area shape="rect" id="node33" href="$_t_d2-_t_d_i_8c.html#acef9187016e3f7c11c5adc8d5579cb84" title="do_PaletteReduction" alt="" coords="306,436,449,463"/>
+<area shape="rect" id="node35" href="$_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2" title="histogrammeCumule" alt="" coords="528,335,669,361"/>
+<area shape="rect" id="node36" href="$_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008" title="histo_egalisation" alt="" coords="318,284,437,311"/>
+<area shape="rect" id="node37" href="$_t_d2-_t_d_i_8c.html#a5dc372147311b92912c0b6cee7d0c8b1" title="rectangleEnglobant" alt="" coords="311,385,444,412"/>
+<area shape="rect" id="node38" href="$watershed_8c.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="337,233,418,260"/>
+<area shape="rect" id="node42" href="$_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="293,1145,461,1172"/>
+<area shape="rect" id="node22" href="$_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a" title="Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. " alt="" coords="545,892,652,919"/>
+<area shape="rect" id="node25" href="$filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6" title="Détermine la valeur médiane des éléments du tableau d&#39;entiers. " alt="" coords="791,979,873,1005"/>
+<area shape="rect" id="node26" href="$filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00" title="reBound" alt="" coords="797,1029,867,1056"/>
+<area shape="rect" id="node27" href="$filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64" title="reNormalize" alt="" coords="787,928,877,955"/>
+<area shape="rect" id="node29" href="$filtering_8c.html#a6187f50d42c976914707403a16f629d6" title="Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) " alt="" coords="523,1059,674,1085"/>
+<area shape="rect" id="node31" href="$filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="562,1153,635,1180"/>
+<area shape="rect" id="node30" href="$filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9" title="generateNormalizedGaussian\lNKernel" alt="" coords="736,1081,928,1122"/>
+<area shape="rect" id="node34" href="$_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2" title="paletteReduction" alt="" coords="539,436,658,463"/>
+<area shape="rect" id="node39" href="$watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8" title="essai d&#39;algo de watershed " alt="" coords="553,233,644,260"/>
+<area shape="rect" id="node41" href="$watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a" title="Dessine le &quot;masque&quot; du watershed par dessus l&#39;image donnée. " alt="" coords="519,284,678,311"/>
+<area shape="rect" id="node40" href="$watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a" title="montée de l&#39;eau " alt="" coords="777,233,887,260"/>
+</map>

@@ -1,0 +1,1212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI: Référence du fichier TD2-TDI.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier TD2-TDI.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_t_d2-_t_d_i_8h_source.html">TD2-TDI.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="filtering_8h_source.html">filtering.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="watershed_8h_source.html">watershed.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de TD2-TDI.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c__incl.png" border="0" usemap="#_t_d2-_t_d_i_8c" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c" id="_t_d2-_t_d_i_8c">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html" title="TD2&#45;TDI.h" alt="" coords="109,80,192,107"/><area shape="rect" id="node12" href="filtering_8h.html" title="filtering.h" alt="" coords="216,80,291,107"/><area shape="rect" id="node13" href="watershed_8h.html" title="watershed.h" alt="" coords="315,80,407,107"/><area shape="rect" id="node14" href="utils_8h.html" title="utils.h" alt="" coords="431,80,488,107"/><area shape="rect" id="node3" href="common_8h.html" title="common.h" alt="" coords="265,155,348,181"/><area shape="rect" id="node11" href="_bmp_lib_8h.html" title="BmpLib.h" alt="" coords="580,229,657,256"/></map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:abe5fd33b5e4a923167ce71017706454b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#abe5fd33b5e4a923167ce71017706454b">cree3matrices</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_bleue, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_rouge, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_verte, <a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="el" href="_t_d2-_t_d_i_8h.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>)</td></tr>
+<tr class="memdesc:abe5fd33b5e4a923167ce71017706454b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sépare les composantes RGB d'une image en 3 matrices.  <a href="#abe5fd33b5e4a923167ce71017706454b">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abe5fd33b5e4a923167ce71017706454b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af625077874700357877346213c244e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#af625077874700357877346213c244e2e">creeImage</a> (<a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="el" href="_t_d2-_t_d_i_8h.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_bleue, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_rouge, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_verte)</td></tr>
+<tr class="memdesc:af625077874700357877346213c244e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée dans 'image', l'image formée par les 3 composantes couleurs RGB.  <a href="#af625077874700357877346213c244e2e">Plus de détails...</a><br/></td></tr>
+<tr class="separator:af625077874700357877346213c244e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f352f01150e4ba92f0ff6a010867d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a0f352f01150e4ba92f0ff6a010867d48">negatifImage</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_bleue, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_rouge, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_verte)</td></tr>
+<tr class="memdesc:a0f352f01150e4ba92f0ff6a010867d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse in-place les couleurs à partir des matrices des composantes RGB.  <a href="#a0f352f01150e4ba92f0ff6a010867d48">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a0f352f01150e4ba92f0ff6a010867d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1b599737c6980923f10c39df851d9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a2f1b599737c6980923f10c39df851d9b">couleur2NG</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_bleue, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_rouge, <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **mat_verte, bool perceptive)</td></tr>
+<tr class="memdesc:a2f1b599737c6980923f10c39df851d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée une image en niveau-de-gris, à partir des matrices de composantes RGB de l'image couleur source.  <a href="#a2f1b599737c6980923f10c39df851d9b">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a2f1b599737c6980923f10c39df851d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4038f97d7fb7adae4939abcc68290fb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2">seuilleImageNG</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **imageNG, <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> seuil)</td></tr>
+<tr class="memdesc:a4038f97d7fb7adae4939abcc68290fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Réalise le seuillage d'une image en niveau de gris (matricielle)  <a href="#a4038f97d7fb7adae4939abcc68290fb2">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a4038f97d7fb7adae4939abcc68290fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca4f4f133dc1bd40b8c3cc02eaa9f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">histogramme</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **imageNG)</td></tr>
+<tr class="memdesc:a3ca4f4f133dc1bd40b8c3cc02eaa9f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit l'histogramme (sous forme de tableau d'entier) à partir de l'image en niveau de gris (matricielle)  <a href="#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a3ca4f4f133dc1bd40b8c3cc02eaa9f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6d6b4fadaa5ae86a90e603fc1d1ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2">histogrammeCumule</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **imageNG)</td></tr>
+<tr class="separator:aac6d6b4fadaa5ae86a90e603fc1d1ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40fb5165a751fca816d1da741ade0008"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008">histo_egalisation</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **imageNG)</td></tr>
+<tr class="separator:a40fb5165a751fca816d1da741ade0008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc049c9711553695dfa71cde0506b4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#afc049c9711553695dfa71cde0506b4ac">imageHistogramme</a> (<a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *<a class="el" href="_t_d2-_t_d_i_8h.html#ac8c4b498bf58c85ccddcb9bd0b56883a">histo</a>)</td></tr>
+<tr class="memdesc:afc049c9711553695dfa71cde0506b4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée une représentation graphique (image) de l'histogramme.  <a href="#afc049c9711553695dfa71cde0506b4ac">Plus de détails...</a><br/></td></tr>
+<tr class="separator:afc049c9711553695dfa71cde0506b4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc372147311b92912c0b6cee7d0c8b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_t_d2-_t_d_i_8h.html#a7ee63dd3a5a714229eda955887605141">rect_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a5dc372147311b92912c0b6cee7d0c8b1">rectangleEnglobant</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **imageNG)</td></tr>
+<tr class="separator:a5dc372147311b92912c0b6cee7d0c8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcde85a3241102a2fef9ccce4d2e7c86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#abcde85a3241102a2fef9ccce4d2e7c86">get_seuil_otsu</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src)</td></tr>
+<tr class="memdesc:abcde85a3241102a2fef9ccce4d2e7c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teste si les couleurs RGB en paramètres sont égales.  <a href="#abcde85a3241102a2fef9ccce4d2e7c86">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abcde85a3241102a2fef9ccce4d2e7c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24d4eaa83f7f7a95566fc0eca4e2b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ad24d4eaa83f7f7a95566fc0eca4e2b31">do_Seuil</a> (int seuil)</td></tr>
+<tr class="separator:ad24d4eaa83f7f7a95566fc0eca4e2b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048fdd6e780425ee715f31f748a8fc3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a048fdd6e780425ee715f31f748a8fc3b">do_GaussienN</a> (int gaussien_size)</td></tr>
+<tr class="separator:a048fdd6e780425ee715f31f748a8fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77741f079e68b24e0def7385f8adabf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2">paletteReduction</a> (<a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **src, int levelsAmount)</td></tr>
+<tr class="separator:a77741f079e68b24e0def7385f8adabf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef9187016e3f7c11c5adc8d5579cb84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#acef9187016e3f7c11c5adc8d5579cb84">do_PaletteReduction</a> (int level)</td></tr>
+<tr class="separator:acef9187016e3f7c11c5adc8d5579cb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce2f5a4c1961ec53ddeaaa55bc3b8b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">choixAction</a> (int choix)</td></tr>
+<tr class="memdesc:a1ce2f5a4c1961ec53ddeaaa55bc3b8b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relatif au menu.  <a href="#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a1ce2f5a4c1961ec53ddeaaa55bc3b8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fea0eef7c578515efb288601398016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#aa0fea0eef7c578515efb288601398016">initData</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:aa0fea0eef7c578515efb288601398016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise les données de base.  <a href="#aa0fea0eef7c578515efb288601398016">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aa0fea0eef7c578515efb288601398016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3842986ee948bf12945d05232f33b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#abd3842986ee948bf12945d05232f33b8">freeStuff</a> ()</td></tr>
+<tr class="memdesc:abd3842986ee948bf12945d05232f33b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Libère la mémoire utilisée par les données allouées.  <a href="#abd3842986ee948bf12945d05232f33b8">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abd3842986ee948bf12945d05232f33b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964db043ce460565b098e3c7cbd94dc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a964db043ce460565b098e3c7cbd94dc0">MAIN_NAME</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a964db043ce460565b098e3c7cbd94dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">main au nom variable selon la compilation en console ou en GUI  <a href="#a964db043ce460565b098e3c7cbd94dc0">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a964db043ce460565b098e3c7cbd94dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab8ad6ffca8f2c5a2106b513aa1931077"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ab8ad6ffca8f2c5a2106b513aa1931077">img_w</a></td></tr>
+<tr class="separator:ab8ad6ffca8f2c5a2106b513aa1931077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2b1bb1ff4a026371bd01bbecb171f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#adb2b1bb1ff4a026371bd01bbecb171f9">img_h</a></td></tr>
+<tr class="separator:adb2b1bb1ff4a026371bd01bbecb171f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d0c12cb214f0f4e818a284b86d2816"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ab4d0c12cb214f0f4e818a284b86d2816">nomFichier</a> = <a class="el" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="separator:ab4d0c12cb214f0f4e818a284b86d2816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56e77425eb56d4fdfb3670af063a485"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#aa56e77425eb56d4fdfb3670af063a485">man_seuil</a> = 100</td></tr>
+<tr class="separator:aa56e77425eb56d4fdfb3670af063a485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7da76559f713de6cd79b985ae5aa9a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ad7da76559f713de6cd79b985ae5aa9a0">taille_gaussien</a> = 0</td></tr>
+<tr class="separator:ad7da76559f713de6cd79b985ae5aa9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa4cda3a079cb7b3dc6b1c0f6264d8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a2aa4cda3a079cb7b3dc6b1c0f6264d8a">nbrCouleursReduc</a> = 0</td></tr>
+<tr class="separator:a2aa4cda3a079cb7b3dc6b1c0f6264d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9dbc077ba458588b3bc3f1e92d6af7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a4d9dbc077ba458588b3bc3f1e92d6af7">image_orig</a></td></tr>
+<tr class="separator:a4d9dbc077ba458588b3bc3f1e92d6af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec77693c2fc48decf2d7da8013cbbdd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a></td></tr>
+<tr class="separator:aec77693c2fc48decf2d7da8013cbbdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bad2e2dfbf1f96a92c00a6f2e9df7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#af4bad2e2dfbf1f96a92c00a6f2e9df7f">histo_img</a></td></tr>
+<tr class="separator:af4bad2e2dfbf1f96a92c00a6f2e9df7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774fe1e67338fbcf8f1a228d4987b12c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a774fe1e67338fbcf8f1a228d4987b12c">tmp_img</a></td></tr>
+<tr class="separator:a774fe1e67338fbcf8f1a228d4987b12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2082ae9a376054311d5f9e2c6df7be79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a2082ae9a376054311d5f9e2c6df7be79">tmp_ng1</a></td></tr>
+<tr class="separator:a2082ae9a376054311d5f9e2c6df7be79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b7621092763b4031194be34d83ec6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a24b7621092763b4031194be34d83ec6f">tmp_ng2</a></td></tr>
+<tr class="separator:a24b7621092763b4031194be34d83ec6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40711c86b3c5abd972049887abee5113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a40711c86b3c5abd972049887abee5113">tmp_ng3</a></td></tr>
+<tr class="separator:a40711c86b3c5abd972049887abee5113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347709ed39161d4cdc97cb37485e8608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a347709ed39161d4cdc97cb37485e8608">matrice_bleue</a></td></tr>
+<tr class="separator:a347709ed39161d4cdc97cb37485e8608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2174169414e4aed56883a4f1d6f17e1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a2174169414e4aed56883a4f1d6f17e1e">matrice_rouge</a></td></tr>
+<tr class="separator:a2174169414e4aed56883a4f1d6f17e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ee4f0e22b9c540b0ef94bda903a7a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ad0ee4f0e22b9c540b0ef94bda903a7a9">matrice_verte</a></td></tr>
+<tr class="separator:ad0ee4f0e22b9c540b0ef94bda903a7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f5febb7a3f9d2c549fe5052d9b7bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#a30f5febb7a3f9d2c549fe5052d9b7bfa">image_ng</a></td></tr>
+<tr class="separator:a30f5febb7a3f9d2c549fe5052d9b7bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c4b498bf58c85ccddcb9bd0b56883a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ac8c4b498bf58c85ccddcb9bd0b56883a">histo</a></td></tr>
+<tr class="separator:ac8c4b498bf58c85ccddcb9bd0b56883a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2507b7ddcdad238a300803c82238c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_d2-_t_d_i_8c.html#ae2507b7ddcdad238a300803c82238c7c">histoCumule</a></td></tr>
+<tr class="separator:ae2507b7ddcdad238a300803c82238c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a class="anchor" id="a1ce2f5a4c1961ec53ddeaaa55bc3b8b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void choixAction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>choix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Relatif au menu. </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_cgraph" id="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#abe5fd33b5e4a923167ce71017706454b" title="Sépare les composantes RGB d&#39;une image en 3 matrices. " alt="" coords="176,5,280,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8c.html#a2f1b599737c6980923f10c39df851d9b" title="Crée une image en niveau&#45;de&#45;gris, à partir des matrices de composantes RGB de l&#39;image couleur source..." alt="" coords="183,56,273,83"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8c.html#a0f352f01150e4ba92f0ff6a010867d48" title="Inverse in&#45;place les couleurs à partir des matrices des composantes RGB. " alt="" coords="179,107,277,133"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8c.html#af625077874700357877346213c244e2e" title="Crée dans &#39;image&#39;, l&#39;image formée par les 3 composantes couleurs RGB. " alt="" coords="187,157,269,184"/><area shape="rect" id="node6" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="360,259,539,285"/><area shape="rect" id="node7" href="_t_d2-_t_d_i_8c.html#ad24d4eaa83f7f7a95566fc0eca4e2b31" title="do_Seuil" alt="" coords="192,309,264,336"/><area shape="rect" id="node8" href="_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2" title="Réalise le seuillage d&#39;une image en niveau de gris (matricielle) " alt="" coords="392,309,507,336"/><area shape="rect" id="node9" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="634,563,731,589"/><area shape="rect" id="node10" href="_t_d2-_t_d_i_8c.html#afc049c9711553695dfa71cde0506b4ac" title="Crée une représentation graphique (image) de l&#39;histogramme. " alt="" coords="161,715,295,741"/><area shape="rect" id="node12" href="_t_d2-_t_d_i_8c.html#abcde85a3241102a2fef9ccce4d2e7c86" title="Teste si les couleurs RGB en paramètres sont égales. " alt="" coords="396,563,503,589"/><area shape="rect" id="node13" href="filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8" title="Applique un filtre sur une image en niveau de gris (matricielle) " alt="" coords="407,461,492,488"/><area shape="rect" id="node17" href="_t_d2-_t_d_i_8c.html#a048fdd6e780425ee715f31f748a8fc3b" title="do_GaussienN" alt="" coords="175,411,281,437"/><area shape="rect" id="node21" href="filtering_8c.html#a68333399cb34a5806069fc17be618ea0" title="Calcule le module à partir de 2 images (matricielles) niveau&#45;de&#45;gris sources. " alt="" coords="164,765,292,792"/><area shape="rect" id="node22" href="_t_d2-_t_d_i_8c.html#acef9187016e3f7c11c5adc8d5579cb84" title="do_PaletteReduction" alt="" coords="157,208,299,235"/><area shape="rect" id="node24" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2" title="histogrammeCumule" alt="" coords="379,613,520,640"/><area shape="rect" id="node25" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008" title="histo_egalisation" alt="" coords="169,613,287,640"/><area shape="rect" id="node26" href="_t_d2-_t_d_i_8c.html#a5dc372147311b92912c0b6cee7d0c8b1" title="rectangleEnglobant" alt="" coords="161,816,295,843"/><area shape="rect" id="node27" href="watershed_8c.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="187,867,269,893"/><area shape="rect" id="node31" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="144,917,312,944"/><area shape="rect" id="node11" href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a" title="Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. " alt="" coords="396,715,503,741"/><area shape="rect" id="node14" href="filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6" title="Détermine la valeur médiane des éléments du tableau d&#39;entiers. " alt="" coords="641,512,724,539"/><area shape="rect" id="node15" href="filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00" title="reBound" alt="" coords="647,411,718,437"/><area shape="rect" id="node16" href="filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64" title="reNormalize" alt="" coords="637,461,728,488"/><area shape="rect" id="node18" href="filtering_8c.html#a6187f50d42c976914707403a16f629d6" title="Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) " alt="" coords="374,360,525,387"/><area shape="rect" id="node20" href="filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="413,411,486,437"/><area shape="rect" id="node19" href="filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9" title="generateNormalizedGaussian\lNKernel" alt="" coords="587,345,779,386"/><area shape="rect" id="node23" href="_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2" title="paletteReduction" alt="" coords="390,208,509,235"/><area shape="rect" id="node28" href="watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8" title="essai d&#39;algo de watershed " alt="" coords="404,841,495,868"/><area shape="rect" id="node30" href="watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a" title="Dessine le &quot;masque&quot; du watershed par dessus l&#39;image donnée. " alt="" coords="370,892,529,919"/><area shape="rect" id="node29" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a" title="montée de l&#39;eau " alt="" coords="627,841,738,868"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_icgraph" id="_t_d2-_t_d_i_8c_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="144,29,235,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="283,55,383,81"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f1b599737c6980923f10c39df851d9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** couleur2NG </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_bleue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_rouge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_verte</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>perceptive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Crée une image en niveau-de-gris, à partir des matrices de composantes RGB de l'image couleur source. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat_bleue</td><td>Pointeur vers la matrice de la composante bleue de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_rouge</td><td>Pointeur vers la matrice de la composante rouge de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_verte</td><td>Pointeur vers la matrice de la composante verte de l'image (source) </td></tr>
+    <tr><td class="paramname">perceptive</td><td>Indique si la fonction doit produire un niveau de gris être perceptif ou mathématique. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Matrice 2D représentant l'image en niveaux de gris </dd></dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a2f1b599737c6980923f10c39df851d9b_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a2f1b599737c6980923f10c39df851d9b_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a2f1b599737c6980923f10c39df851d9b_icgraph" id="_t_d2-_t_d_i_8c_a2f1b599737c6980923f10c39df851d9b_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="144,29,235,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="283,29,383,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abe5fd33b5e4a923167ce71017706454b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cree3matrices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_bleue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_rouge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_verte</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td>
+          <td class="paramname"><em>image</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sépare les composantes RGB d'une image en 3 matrices. </p>
+<p>Remplit les 3 matrices mat_bleue, mat_rouge, et mat_verte avec la valeur des composantes RGB de l'image source </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat_bleue</td><td>Pointeur vers la matrice 2D de la composante bleue (destination) </td></tr>
+    <tr><td class="paramname">mat_rouge</td><td>Pointeur vers la matrice 2D de la composante rouge (destination) </td></tr>
+    <tr><td class="paramname">mat_verte</td><td>Pointeur vers la matrice 2D de la composante verte (destination) </td></tr>
+    <tr><td class="paramname">image</td><td>L'image source </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_abe5fd33b5e4a923167ce71017706454b_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_abe5fd33b5e4a923167ce71017706454b_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_abe5fd33b5e4a923167ce71017706454b_icgraph" id="_t_d2-_t_d_i_8c_abe5fd33b5e4a923167ce71017706454b_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="157,29,248,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="297,29,397,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af625077874700357877346213c244e2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void creeImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_bleue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_rouge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_verte</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Crée dans 'image', l'image formée par les 3 composantes couleurs RGB. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>Pointeur vers l'image de destination </td></tr>
+    <tr><td class="paramname">mat_bleue</td><td>Pointeur vers la matrice de la composante bleue de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_rouge</td><td>Pointeur vers la matrice de la composante rouge de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_verte</td><td>Pointeur vers la matrice de la composante verte de l'image (source) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_af625077874700357877346213c244e2e_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_af625077874700357877346213c244e2e_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_af625077874700357877346213c244e2e_icgraph" id="_t_d2-_t_d_i_8c_af625077874700357877346213c244e2e_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="136,29,227,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="275,29,375,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a048fdd6e780425ee715f31f748a8fc3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void do_GaussienN </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>gaussien_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_cgraph" id="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_cgraph">
+<area shape="rect" id="node2" href="filtering_8c.html#a6187f50d42c976914707403a16f629d6" title="Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) " alt="" coords="174,41,325,68"/><area shape="rect" id="node4" href="filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8" title="Applique un filtre sur une image en niveau de gris (matricielle) " alt="" coords="207,96,292,123"/><area shape="rect" id="node8" href="filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="213,147,286,173"/><area shape="rect" id="node9" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="160,197,339,224"/><area shape="rect" id="node3" href="filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9" title="generateNormalizedGaussian\lNKernel" alt="" coords="387,5,579,46"/><area shape="rect" id="node5" href="filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6" title="Détermine la valeur médiane des éléments du tableau d&#39;entiers. " alt="" coords="441,71,524,97"/><area shape="rect" id="node6" href="filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00" title="reBound" alt="" coords="447,121,518,148"/><area shape="rect" id="node7" href="filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64" title="reNormalize" alt="" coords="437,172,528,199"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_icgraph" id="_t_d2-_t_d_i_8c_a048fdd6e780425ee715f31f748a8fc3b_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="160,29,251,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="299,29,399,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acef9187016e3f7c11c5adc8d5579cb84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void do_PaletteReduction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_cgraph" id="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2" title="paletteReduction" alt="" coords="227,5,346,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="197,56,376,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_icgraph" id="_t_d2-_t_d_i_8c_acef9187016e3f7c11c5adc8d5579cb84_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="197,29,288,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="337,29,437,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad24d4eaa83f7f7a95566fc0eca4e2b31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void do_Seuil </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seuil</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_cgraph" id="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2" title="Réalise le seuillage d&#39;une image en niveau de gris (matricielle) " alt="" coords="157,5,272,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="125,56,304,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_icgraph" id="_t_d2-_t_d_i_8c_ad24d4eaa83f7f7a95566fc0eca4e2b31_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="125,29,216,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="265,29,365,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abd3842986ee948bf12945d05232f33b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void freeStuff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Libère la mémoire utilisée par les données allouées. </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_cgraph" id="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_cgraph">
+<area shape="rect" id="node2" href="filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="173,5,246,32"/><area shape="rect" id="node3" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="125,56,293,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_icgraph" id="_t_d2-_t_d_i_8c_abd3842986ee948bf12945d05232f33b8_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="126,5,226,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abcde85a3241102a2fef9ccce4d2e7c86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_seuil_otsu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Teste si les couleurs RGB en paramètres sont égales. </p>
+<p>Détermination automatique du seuil par utilisation de la méthode d'Otsu ("maximization of inter-class variance"). Algorithme basé sur <a href="http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html">http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html</a> </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>L'image </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>La valeur (entier [0-255]) de seuil optimal. </dd></dl>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_cgraph" id="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="161,5,258,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_icgraph" id="_t_d2-_t_d_i_8c_abcde85a3241102a2fef9ccce4d2e7c86_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="160,29,251,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="299,29,399,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a40fb5165a751fca816d1da741ade0008"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void histo_egalisation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>imageNG</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_cgraph" id="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2" title="histogrammeCumule" alt="" coords="173,5,315,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="363,5,461,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_icgraph" id="_t_d2-_t_d_i_8c_a40fb5165a751fca816d1da741ade0008_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="173,29,264,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="313,29,413,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ca4f4f133dc1bd40b8c3cc02eaa9f70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* histogramme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>imageNG</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construit l'histogramme (sous forme de tableau d'entier) à partir de l'image en niveau de gris (matricielle) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imageNG</td><td>Pointeur vers l'image en niveau de gris (matricielle) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Histogramme sous forme de tableau d'entiers </dd></dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a3ca4f4f133dc1bd40b8c3cc02eaa9f70_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a3ca4f4f133dc1bd40b8c3cc02eaa9f70_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a3ca4f4f133dc1bd40b8c3cc02eaa9f70_icgraph" id="_t_d2-_t_d_i_8c_a3ca4f4f133dc1bd40b8c3cc02eaa9f70_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2" title="histogrammeCumule" alt="" coords="152,56,293,83"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="509,81,600,108"/><area shape="rect" id="node6" href="_t_d2-_t_d_i_8h.html#abcde85a3241102a2fef9ccce4d2e7c86" title="Teste si les couleurs RGB en paramètres sont égales. " alt="" coords="348,157,455,184"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008" title="histo_egalisation" alt="" coords="342,5,461,32"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="649,81,749,108"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aac6d6b4fadaa5ae86a90e603fc1d1ed2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* histogrammeCumule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>imageNG</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_cgraph" id="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="195,5,293,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_icgraph" id="_t_d2-_t_d_i_8c_aac6d6b4fadaa5ae86a90e603fc1d1ed2_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008" title="histo_egalisation" alt="" coords="195,5,314,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="363,31,453,57"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="502,31,602,57"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afc049c9711553695dfa71cde0506b4ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* imageHistogramme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *&#160;</td>
+          <td class="paramname"><em>histo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Crée une représentation graphique (image) de l'histogramme. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">histo</td><td>Histogramme sous forme de tableau d'entiers </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Pointeur vers l'image représentant l'histogramme. </dd></dl>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_cgraph" id="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a" title="Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. " alt="" coords="189,5,296,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_icgraph" id="_t_d2-_t_d_i_8c_afc049c9711553695dfa71cde0506b4ac_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="189,29,280,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="329,29,429,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0fea0eef7c578515efb288601398016"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initData </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise les données de base. </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_cgraph" id="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_cgraph">
+<area shape="rect" id="node2" href="utils_8c.html#a3e6055fa50e77005c009ba235708872d" title="strEndsWith" alt="" coords="121,31,215,57"/><area shape="rect" id="node3" href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="122,81,214,108"/><area shape="rect" id="node8" href="filtering_8c.html#a58253e7d6e52d149b0e526d5bebb2dea" title="Crée le tableau des filtres de base. " alt="" coords="121,132,215,159"/><area shape="rect" id="node4" href="_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="272,31,387,57"/><area shape="rect" id="node7" href="_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="264,81,395,108"/><area shape="rect" id="node5" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="443,5,573,32"/><area shape="rect" id="node6" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="455,56,561,83"/><area shape="rect" id="node9" href="filtering_8c.html#a28ca310899abb143bfb1f7076c9f323e" title="mask_copy_3" alt="" coords="278,132,381,159"/><area shape="rect" id="node10" href="filtering_8c.html#a14c6955680451c69de4b7a77a02d1a96" title="mask_copy_5" alt="" coords="278,183,381,209"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_icgraph" id="_t_d2-_t_d_i_8c_aa0fea0eef7c578515efb288601398016_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="121,5,221,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a964db043ce460565b098e3c7cbd94dc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MAIN_NAME </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>main au nom variable selon la compilation en console ou en GUI </p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a964db043ce460565b098e3c7cbd94dc0_cgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a964db043ce460565b098e3c7cbd94dc0_cgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a964db043ce460565b098e3c7cbd94dc0_cgraph" id="_t_d2-_t_d_i_8c_a964db043ce460565b098e3c7cbd94dc0_cgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8c.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="167,157,233,184"/><area shape="rect" id="node12" href="_t_d2-_t_d_i_8c.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="155,689,245,716"/><area shape="rect" id="node43" href="_t_d2-_t_d_i_8c.html#abd3842986ee948bf12945d05232f33b8" title="Libère la mémoire utilisée par les données allouées. " alt="" coords="164,1145,236,1172"/><area shape="rect" id="node3" href="utils_8c.html#a3e6055fa50e77005c009ba235708872d" title="strEndsWith" alt="" coords="331,183,424,209"/><area shape="rect" id="node4" href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="331,81,423,108"/><area shape="rect" id="node9" href="filtering_8c.html#a58253e7d6e52d149b0e526d5bebb2dea" title="Crée le tableau des filtres de base. " alt="" coords="330,132,425,159"/><area shape="rect" id="node5" href="_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="541,31,656,57"/><area shape="rect" id="node8" href="_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="533,81,664,108"/><area shape="rect" id="node6" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="767,5,897,32"/><area shape="rect" id="node7" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="779,56,885,83"/><area shape="rect" id="node10" href="filtering_8c.html#a28ca310899abb143bfb1f7076c9f323e" title="mask_copy_3" alt="" coords="547,132,650,159"/><area shape="rect" id="node11" href="filtering_8c.html#a14c6955680451c69de4b7a77a02d1a96" title="mask_copy_5" alt="" coords="547,183,650,209"/><area shape="rect" id="node13" href="_t_d2-_t_d_i_8c.html#abe5fd33b5e4a923167ce71017706454b" title="Sépare les composantes RGB d&#39;une image en 3 matrices. " alt="" coords="325,487,429,513"/><area shape="rect" id="node14" href="_t_d2-_t_d_i_8c.html#a2f1b599737c6980923f10c39df851d9b" title="Crée une image en niveau&#45;de&#45;gris, à partir des matrices de composantes RGB de l&#39;image couleur source..." alt="" coords="332,537,423,564"/><area shape="rect" id="node15" href="_t_d2-_t_d_i_8c.html#a0f352f01150e4ba92f0ff6a010867d48" title="Inverse in&#45;place les couleurs à partir des matrices des composantes RGB. " alt="" coords="329,588,426,615"/><area shape="rect" id="node16" href="_t_d2-_t_d_i_8c.html#af625077874700357877346213c244e2e" title="Crée dans &#39;image&#39;, l&#39;image formée par les 3 composantes couleurs RGB. " alt="" coords="336,639,419,665"/><area shape="rect" id="node17" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="509,765,688,792"/><area shape="rect" id="node18" href="_t_d2-_t_d_i_8c.html#ad24d4eaa83f7f7a95566fc0eca4e2b31" title="do_Seuil" alt="" coords="341,740,413,767"/><area shape="rect" id="node19" href="_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2" title="Réalise le seuillage d&#39;une image en niveau de gris (matricielle) " alt="" coords="541,689,656,716"/><area shape="rect" id="node20" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70" title="Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri..." alt="" coords="783,841,881,868"/><area shape="rect" id="node21" href="_t_d2-_t_d_i_8c.html#afc049c9711553695dfa71cde0506b4ac" title="Crée une représentation graphique (image) de l&#39;histogramme. " alt="" coords="310,892,445,919"/><area shape="rect" id="node23" href="_t_d2-_t_d_i_8c.html#abcde85a3241102a2fef9ccce4d2e7c86" title="Teste si les couleurs RGB en paramètres sont égales. " alt="" coords="545,841,652,868"/><area shape="rect" id="node24" href="filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8" title="Applique un filtre sur une image en niveau de gris (matricielle) " alt="" coords="556,993,641,1020"/><area shape="rect" id="node28" href="_t_d2-_t_d_i_8c.html#a048fdd6e780425ee715f31f748a8fc3b" title="do_GaussienN" alt="" coords="324,1044,431,1071"/><area shape="rect" id="node32" href="filtering_8c.html#a68333399cb34a5806069fc17be618ea0" title="Calcule le module à partir de 2 images (matricielles) niveau&#45;de&#45;gris sources. " alt="" coords="313,1095,441,1121"/><area shape="rect" id="node33" href="_t_d2-_t_d_i_8c.html#acef9187016e3f7c11c5adc8d5579cb84" title="do_PaletteReduction" alt="" coords="306,436,449,463"/><area shape="rect" id="node35" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2" title="histogrammeCumule" alt="" coords="528,335,669,361"/><area shape="rect" id="node36" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008" title="histo_egalisation" alt="" coords="318,284,437,311"/><area shape="rect" id="node37" href="_t_d2-_t_d_i_8c.html#a5dc372147311b92912c0b6cee7d0c8b1" title="rectangleEnglobant" alt="" coords="311,385,444,412"/><area shape="rect" id="node38" href="watershed_8c.html#a6a682d177cea851ab1416b0964f09a9f" title="appelant de l&#39;algo du watershed " alt="" coords="337,233,418,260"/><area shape="rect" id="node42" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="293,1145,461,1172"/><area shape="rect" id="node22" href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a" title="Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. " alt="" coords="545,892,652,919"/><area shape="rect" id="node25" href="filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6" title="Détermine la valeur médiane des éléments du tableau d&#39;entiers. " alt="" coords="791,979,873,1005"/><area shape="rect" id="node26" href="filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00" title="reBound" alt="" coords="797,1029,867,1056"/><area shape="rect" id="node27" href="filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64" title="reNormalize" alt="" coords="787,928,877,955"/><area shape="rect" id="node29" href="filtering_8c.html#a6187f50d42c976914707403a16f629d6" title="Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) " alt="" coords="523,1059,674,1085"/><area shape="rect" id="node31" href="filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="562,1153,635,1180"/><area shape="rect" id="node30" href="filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9" title="generateNormalizedGaussian\lNKernel" alt="" coords="736,1081,928,1122"/><area shape="rect" id="node34" href="_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2" title="paletteReduction" alt="" coords="539,436,658,463"/><area shape="rect" id="node39" href="watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8" title="essai d&#39;algo de watershed " alt="" coords="553,233,644,260"/><area shape="rect" id="node41" href="watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a" title="Dessine le &quot;masque&quot; du watershed par dessus l&#39;image donnée. " alt="" coords="519,284,678,311"/><area shape="rect" id="node40" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a" title="montée de l&#39;eau " alt="" coords="777,233,887,260"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f352f01150e4ba92f0ff6a010867d48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void negatifImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_bleue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_rouge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>mat_verte</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inverse in-place les couleurs à partir des matrices des composantes RGB. </p>
+<p>Remplace les valeurs de chaque composantes couleurs en paramètre par leur inverse (255-x) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat_bleue</td><td>Pointeur vers la matrice de la composante bleue de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_rouge</td><td>Pointeur vers la matrice de la composante rouge de l'image (source) </td></tr>
+    <tr><td class="paramname">mat_verte</td><td>Pointeur vers la matrice de la composante verte de l'image (source) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a0f352f01150e4ba92f0ff6a010867d48_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a0f352f01150e4ba92f0ff6a010867d48_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a0f352f01150e4ba92f0ff6a010867d48_icgraph" id="_t_d2-_t_d_i_8c_a0f352f01150e4ba92f0ff6a010867d48_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="152,29,243,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="291,29,391,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a77741f079e68b24e0def7385f8adabf2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** paletteReduction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>levelsAmount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a77741f079e68b24e0def7385f8adabf2_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a77741f079e68b24e0def7385f8adabf2_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a77741f079e68b24e0def7385f8adabf2_icgraph" id="_t_d2-_t_d_i_8c_a77741f079e68b24e0def7385f8adabf2_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#acef9187016e3f7c11c5adc8d5579cb84" title="do_PaletteReduction" alt="" coords="174,29,317,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="365,29,456,56"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="505,29,605,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5dc372147311b92912c0b6cee7d0c8b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_t_d2-_t_d_i_8h.html#a7ee63dd3a5a714229eda955887605141">rect_t</a>* rectangleEnglobant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>imageNG</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a5dc372147311b92912c0b6cee7d0c8b1_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a5dc372147311b92912c0b6cee7d0c8b1_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a5dc372147311b92912c0b6cee7d0c8b1_icgraph" id="_t_d2-_t_d_i_8c_a5dc372147311b92912c0b6cee7d0c8b1_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="187,29,277,56"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="326,29,426,56"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4038f97d7fb7adae4939abcc68290fb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void seuilleImageNG </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> **&#160;</td>
+          <td class="paramname"><em>imageNG</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
+          <td class="paramname"><em>seuil</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Réalise le seuillage d'une image en niveau de gris (matricielle) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imageNG</td><td>Pointeur vers l'image en niveau de gris (matricielle) </td></tr>
+    <tr><td class="paramname">seuil</td><td>Le niveau (seuil), nombre compris entre 0 et 255 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_t_d2-_t_d_i_8c_a4038f97d7fb7adae4939abcc68290fb2_icgraph.png" border="0" usemap="#_t_d2-_t_d_i_8c_a4038f97d7fb7adae4939abcc68290fb2_icgraph" alt=""/></div>
+<map name="_t_d2-_t_d_i_8c_a4038f97d7fb7adae4939abcc68290fb2_icgraph" id="_t_d2-_t_d_i_8c_a4038f97d7fb7adae4939abcc68290fb2_icgraph">
+<area shape="rect" id="node2" href="_t_d2-_t_d_i_8h.html#ad24d4eaa83f7f7a95566fc0eca4e2b31" title="do_Seuil" alt="" coords="168,5,240,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7" title="Relatif au menu. " alt="" coords="288,31,379,57"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="427,31,527,57"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a class="anchor" id="ac8c4b498bf58c85ccddcb9bd0b56883a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* histo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af4bad2e2dfbf1f96a92c00a6f2e9df7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* histo_img</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae2507b7ddcdad238a300803c82238c7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* histoCumule</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aec77693c2fc48decf2d7da8013cbbdd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* image</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a30f5febb7a3f9d2c549fe5052d9b7bfa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** image_ng</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d9dbc077ba458588b3bc3f1e92d6af7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* image_orig</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adb2b1bb1ff4a026371bd01bbecb171f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int img_h</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8ad6ffca8f2c5a2106b513aa1931077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int img_w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa56e77425eb56d4fdfb3670af063a485"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int man_seuil = 100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a347709ed39161d4cdc97cb37485e8608"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** matrice_bleue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2174169414e4aed56883a4f1d6f17e1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** matrice_rouge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0ee4f0e22b9c540b0ef94bda903a7a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** matrice_verte</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2aa4cda3a079cb7b3dc6b1c0f6264d8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nbrCouleursReduc = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4d0c12cb214f0f4e818a284b86d2816"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* nomFichier = <a class="el" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad7da76559f713de6cd79b985ae5aa9a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int taille_gaussien = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a774fe1e67338fbcf8f1a228d4987b12c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* tmp_img</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2082ae9a376054311d5f9e2c6df7be79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** tmp_ng1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24b7621092763b4031194be34d83ec6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** tmp_ng2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40711c86b3c5abd972049887abee5113"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** tmp_ng3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

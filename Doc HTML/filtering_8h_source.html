@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI:  Fichier source de filtering.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">filtering.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="filtering_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Adrien Bertrand</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Mini-Projet TdI</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// v4.5 - 11/01/2014</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef __FILTERING_H__</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __FILTERING_H__</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="common_8h.html">common.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="filtering_8h.html#a51646db20a58a485a42f8a16ff4c83c4">   11</a></span>&#160;<span class="preprocessor">#define NBR_FILTRES 15</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// typedef void *(*void_func_ptr)(void);</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// void_func_ptr filter_methods[NBR_FILTRES];</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0">   19</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0">_filters_types</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ab06fbdcf23a54531c507fc30f7e98014">   20</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ab06fbdcf23a54531c507fc30f7e98014">flt_RobertsX</a>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a784d1e13a27c17fb90ccb7d9bb69fdd9">   21</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a784d1e13a27c17fb90ccb7d9bb69fdd9">flt_RobertsY</a>,</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a8fbdfd6162f75819e04016ab722aab93">   22</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a8fbdfd6162f75819e04016ab722aab93">flt_PrewittX</a>,</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b3c42512d025a999d241ab8dabee165">   23</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b3c42512d025a999d241ab8dabee165">flt_PrewittY</a>,</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aee3100cab65deaf58564a274588018aa">   24</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aee3100cab65deaf58564a274588018aa">flt_SobelX</a>,</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ad7af6725dc58a304feebde124b54617a">   25</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ad7af6725dc58a304feebde124b54617a">flt_SobelY</a>,</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a2d476e31935cfcb46370c821e2056a34">   26</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a2d476e31935cfcb46370c821e2056a34">flt_Laplacien_4</a>,</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a28f1fb8e96e1ab60ea90661f663d11ca">   27</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a28f1fb8e96e1ab60ea90661f663d11ca">flt_Laplacien_8</a>,</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b24a38c39726d89539a1d6af88e74f0">   28</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b24a38c39726d89539a1d6af88e74f0">flt_Median</a>,</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a804797cc006a41ea8bc6077f21942ddd">   29</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a804797cc006a41ea8bc6077f21942ddd">flt_Average</a>,</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0acf6269e31826be6df264c83dcf6531e6">   30</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0acf6269e31826be6df264c83dcf6531e6">flt_Gaussien3</a>,</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a61045324f8a46288785ddd9428536493">   31</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a61045324f8a46288785ddd9428536493">flt_Gaussien5</a>,</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a074f8baaa7797eb3bf0422cab6605fde">   32</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a074f8baaa7797eb3bf0422cab6605fde">flt_Dilatation</a>,</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aafde71b7c01422b41ca01c24d2201dac">   33</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aafde71b7c01422b41ca01c24d2201dac">flt_Erosion</a>,</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a66c28c676c84746cc48ad96fda3c8351">   34</a></span>&#160;    <a class="code" href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a66c28c676c84746cc48ad96fda3c8351">flt_Custom</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <a class="code" href="filtering_8h.html#a42c19aee3c494a1058ca631ad6ea4a7c">filters_types</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80">   40</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80">_filter_method_t</a> {</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8787f34fe5e5b459c06f588b3eac878">   41</a></span>&#160;    <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8787f34fe5e5b459c06f588b3eac878">flt_m_Convolution</a>,</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80afbb34dfecfdeae2185f9c7c7ab6f1699">   42</a></span>&#160;    <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80afbb34dfecfdeae2185f9c7c7ab6f1699">flt_m_Median</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80a9ece457bd15201c725c1817c92b82f86">   43</a></span>&#160;    <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80a9ece457bd15201c725c1817c92b82f86">flt_m_Average</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8887ce313452376fa9b590aafd9be5d">   44</a></span>&#160;    <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8887ce313452376fa9b590aafd9be5d">flt_m_Dilatation</a>,</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aac33dc598ab0ee34c694b35367ad84ef">   45</a></span>&#160;    <a class="code" href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aac33dc598ab0ee34c694b35367ad84ef">flt_m_Erosion</a></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <a class="code" href="filtering_8h.html#a38a528bf053e530456322b9ab73c5c5d">filter_method_t</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="struct__filter__t.html">   51</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__filter__t.html">_filter_t</a> {</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="struct__filter__t.html#a672ee0003fe0d2c8a7ec23146980b5fe">   52</a></span>&#160;    <a class="code" href="filtering_8h.html#a38a528bf053e530456322b9ab73c5c5d">filter_method_t</a> <a class="code" href="struct__filter__t.html#a672ee0003fe0d2c8a7ec23146980b5fe">method</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="struct__filter__t.html#a526aaec607e6b9814e2bcd952fef1e54">   53</a></span>&#160;    <span class="keywordtype">int</span>** <a class="code" href="struct__filter__t.html#a526aaec607e6b9814e2bcd952fef1e54">mask</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="struct__filter__t.html#a22d26304a3b3aca97e6311f6939dd1bf">   54</a></span>&#160;    <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="code" href="struct__filter__t.html#a22d26304a3b3aca97e6311f6939dd1bf">size</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="struct__filter__t.html#ae01a14d3760c12a3d7c3202c8503878f">   55</a></span>&#160;    <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="code" href="struct__filter__t.html#ae01a14d3760c12a3d7c3202c8503878f">div</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="struct__filter__t.html#a4d4350f9157d44930174c7bb07b936a2">   56</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct__filter__t.html#a4d4350f9157d44930174c7bb07b936a2">needNormalization</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="struct__filter__t.html#a89a60aab3aa221d965583119c5406a61">   57</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct__filter__t.html#a89a60aab3aa221d965583119c5406a61">reBoundOnly</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <a class="code" href="filtering_8h.html#a16b1edec772851459358081623f352c0">filter_t</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">extern</span> <a class="code" href="struct__filter__t.html">filter_t</a>** <a class="code" href="filtering_8h.html#ac168fab590082492a84c20c17fd1cccf">filters</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="filtering_8h.html#aa94daa1ce261ee7e2ff9bf1bca664af6">freeFilter</a>(<a class="code" href="struct__filter__t.html">filter_t</a>* flt);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">int</span> <a class="code" href="filtering_8h.html#a45fa4f551c007a600812bfc1432af0b6">getMedian</a>(<span class="keywordtype">int</span>* arr, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> n);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** <a class="code" href="filtering_8h.html#a6652fb5ca67cae5ebd09839bef12c1a8">apply_filter</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src, <a class="code" href="struct__filter__t.html">filter_t</a>* filter);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** <a class="code" href="filtering_8h.html#a68333399cb34a5806069fc17be618ea0">gradientMagnitude</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** src_x, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** src_y);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keywordtype">void</span> <a class="code" href="filtering_8h.html#a28ca310899abb143bfb1f7076c9f323e">mask_copy_3</a>(<span class="keywordtype">int</span>** dest, <span class="keywordtype">int</span> src[3][3]);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">void</span> <a class="code" href="filtering_8h.html#a14c6955680451c69de4b7a77a02d1a96">mask_copy_5</a>(<span class="keywordtype">int</span>** dest, <span class="keywordtype">int</span> src[5][5]);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> <a class="code" href="filtering_8h.html#a320c6355c3801c9a3a5be1d65ad9dbbf">matrix_copy</a>(<span class="keywordtype">int</span>** dest, <span class="keywordtype">int</span>** src, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> cols, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> rows);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<a class="code" href="struct__filter__t.html">filter_t</a>** <a class="code" href="filtering_8h.html#a58253e7d6e52d149b0e526d5bebb2dea">createFilters</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<a class="code" href="struct__filter__t.html">filter_t</a>* <a class="code" href="filtering_8h.html#a6187f50d42c976914707403a16f629d6">createGaussianFilterN</a>(<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> size);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="struct__filter__t_html_a672ee0003fe0d2c8a7ec23146980b5fe"><div class="ttname"><a href="struct__filter__t.html#a672ee0003fe0d2c8a7ec23146980b5fe">_filter_t::method</a></div><div class="ttdeci">filter_method_t method</div><div class="ttdef"><b>Definition:</b> filtering.h:52</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a804797cc006a41ea8bc6077f21942ddd"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a804797cc006a41ea8bc6077f21942ddd">flt_Average</a></div><div class="ttdef"><b>Definition:</b> filtering.h:29</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0ab06fbdcf23a54531c507fc30f7e98014"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ab06fbdcf23a54531c507fc30f7e98014">flt_RobertsX</a></div><div class="ttdef"><b>Definition:</b> filtering.h:20</div></div>
+<div class="ttc" id="struct__filter__t_html_a4d4350f9157d44930174c7bb07b936a2"><div class="ttname"><a href="struct__filter__t.html#a4d4350f9157d44930174c7bb07b936a2">_filter_t::needNormalization</a></div><div class="ttdeci">bool needNormalization</div><div class="ttdef"><b>Definition:</b> filtering.h:56</div></div>
+<div class="ttc" id="filtering_8h_html_a14c6955680451c69de4b7a77a02d1a96"><div class="ttname"><a href="filtering_8h.html#a14c6955680451c69de4b7a77a02d1a96">mask_copy_5</a></div><div class="ttdeci">void mask_copy_5(int **dest, int src[5][5])</div><div class="ttdef"><b>Definition:</b> filtering.c:262</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a3b3c42512d025a999d241ab8dabee165"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b3c42512d025a999d241ab8dabee165">flt_PrewittY</a></div><div class="ttdef"><b>Definition:</b> filtering.h:23</div></div>
+<div class="ttc" id="filtering_8h_html_a58253e7d6e52d149b0e526d5bebb2dea"><div class="ttname"><a href="filtering_8h.html#a58253e7d6e52d149b0e526d5bebb2dea">createFilters</a></div><div class="ttdeci">filter_t ** createFilters()</div><div class="ttdoc">Crée le tableau des filtres de base. </div><div class="ttdef"><b>Definition:</b> filtering.c:371</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0acf6269e31826be6df264c83dcf6531e6"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0acf6269e31826be6df264c83dcf6531e6">flt_Gaussien3</a></div><div class="ttdef"><b>Definition:</b> filtering.h:30</div></div>
+<div class="ttc" id="common_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> common.h:27</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a2d476e31935cfcb46370c821e2056a34"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a2d476e31935cfcb46370c821e2056a34">flt_Laplacien_4</a></div><div class="ttdef"><b>Definition:</b> filtering.h:26</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80a9ece457bd15201c725c1817c92b82f86"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80a9ece457bd15201c725c1817c92b82f86">flt_m_Average</a></div><div class="ttdef"><b>Definition:</b> filtering.h:43</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80">_filter_method_t</a></div><div class="ttdeci">_filter_method_t</div><div class="ttdoc">Méthodes disponibles pour l&#39;implémentation des filtres. </div><div class="ttdef"><b>Definition:</b> filtering.h:40</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a66c28c676c84746cc48ad96fda3c8351"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a66c28c676c84746cc48ad96fda3c8351">flt_Custom</a></div><div class="ttdef"><b>Definition:</b> filtering.h:34</div></div>
+<div class="ttc" id="filtering_8h_html_ac168fab590082492a84c20c17fd1cccf"><div class="ttname"><a href="filtering_8h.html#ac168fab590082492a84c20c17fd1cccf">filters</a></div><div class="ttdeci">filter_t ** filters</div><div class="ttdef"><b>Definition:</b> filtering.c:7</div></div>
+<div class="ttc" id="filtering_8h_html_a320c6355c3801c9a3a5be1d65ad9dbbf"><div class="ttname"><a href="filtering_8h.html#a320c6355c3801c9a3a5be1d65ad9dbbf">matrix_copy</a></div><div class="ttdeci">void matrix_copy(int **dest, int **src, uint cols, uint rows)</div><div class="ttdef"><b>Definition:</b> filtering.c:270</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0aee3100cab65deaf58564a274588018aa"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aee3100cab65deaf58564a274588018aa">flt_SobelX</a></div><div class="ttdef"><b>Definition:</b> filtering.h:24</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0">_filters_types</a></div><div class="ttdeci">_filters_types</div><div class="ttdoc">Liste des filtres possibles. </div><div class="ttdef"><b>Definition:</b> filtering.h:19</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80aac33dc598ab0ee34c694b35367ad84ef"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aac33dc598ab0ee34c694b35367ad84ef">flt_m_Erosion</a></div><div class="ttdef"><b>Definition:</b> filtering.h:45</div></div>
+<div class="ttc" id="struct__filter__t_html"><div class="ttname"><a href="struct__filter__t.html">_filter_t</a></div><div class="ttdoc">Propriétés d&#39;un filtre. </div><div class="ttdef"><b>Definition:</b> filtering.h:51</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a28f1fb8e96e1ab60ea90661f663d11ca"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a28f1fb8e96e1ab60ea90661f663d11ca">flt_Laplacien_8</a></div><div class="ttdef"><b>Definition:</b> filtering.h:27</div></div>
+<div class="ttc" id="common_8h_html_aa0b167025ed1eead1300bc4dbdfb230e"><div class="ttname"><a href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></div><div class="ttdeci">unsigned short int u16</div><div class="ttdef"><b>Definition:</b> common.h:26</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0ad7af6725dc58a304feebde124b54617a"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0ad7af6725dc58a304feebde124b54617a">flt_SobelY</a></div><div class="ttdef"><b>Definition:</b> filtering.h:25</div></div>
+<div class="ttc" id="filtering_8h_html_a45fa4f551c007a600812bfc1432af0b6"><div class="ttname"><a href="filtering_8h.html#a45fa4f551c007a600812bfc1432af0b6">getMedian</a></div><div class="ttdeci">int getMedian(int *arr, uint n)</div><div class="ttdoc">Détermine la valeur médiane des éléments du tableau d&#39;entiers. </div><div class="ttdef"><b>Definition:</b> filtering.c:22</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a8fbdfd6162f75819e04016ab722aab93"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a8fbdfd6162f75819e04016ab722aab93">flt_PrewittX</a></div><div class="ttdef"><b>Definition:</b> filtering.h:22</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0aafde71b7c01422b41ca01c24d2201dac"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0aafde71b7c01422b41ca01c24d2201dac">flt_Erosion</a></div><div class="ttdef"><b>Definition:</b> filtering.h:33</div></div>
+<div class="ttc" id="struct__filter__t_html_ae01a14d3760c12a3d7c3202c8503878f"><div class="ttname"><a href="struct__filter__t.html#ae01a14d3760c12a3d7c3202c8503878f">_filter_t::div</a></div><div class="ttdeci">uint div</div><div class="ttdef"><b>Definition:</b> filtering.h:55</div></div>
+<div class="ttc" id="filtering_8h_html_aa94daa1ce261ee7e2ff9bf1bca664af6"><div class="ttname"><a href="filtering_8h.html#aa94daa1ce261ee7e2ff9bf1bca664af6">freeFilter</a></div><div class="ttdeci">void freeFilter(filter_t *flt)</div><div class="ttdef"><b>Definition:</b> filtering.c:9</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80aa8787f34fe5e5b459c06f588b3eac878"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8787f34fe5e5b459c06f588b3eac878">flt_m_Convolution</a></div><div class="ttdef"><b>Definition:</b> filtering.h:41</div></div>
+<div class="ttc" id="filtering_8h_html_a38a528bf053e530456322b9ab73c5c5d"><div class="ttname"><a href="filtering_8h.html#a38a528bf053e530456322b9ab73c5c5d">filter_method_t</a></div><div class="ttdeci">enum _filter_method_t filter_method_t</div><div class="ttdoc">Méthodes disponibles pour l&#39;implémentation des filtres. </div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a784d1e13a27c17fb90ccb7d9bb69fdd9"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a784d1e13a27c17fb90ccb7d9bb69fdd9">flt_RobertsY</a></div><div class="ttdef"><b>Definition:</b> filtering.h:21</div></div>
+<div class="ttc" id="struct__filter__t_html_a89a60aab3aa221d965583119c5406a61"><div class="ttname"><a href="struct__filter__t.html#a89a60aab3aa221d965583119c5406a61">_filter_t::reBoundOnly</a></div><div class="ttdeci">bool reBoundOnly</div><div class="ttdef"><b>Definition:</b> filtering.h:57</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80afbb34dfecfdeae2185f9c7c7ab6f1699"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80afbb34dfecfdeae2185f9c7c7ab6f1699">flt_m_Median</a></div><div class="ttdef"><b>Definition:</b> filtering.h:42</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a61045324f8a46288785ddd9428536493"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a61045324f8a46288785ddd9428536493">flt_Gaussien5</a></div><div class="ttdef"><b>Definition:</b> filtering.h:31</div></div>
+<div class="ttc" id="filtering_8h_html_a68333399cb34a5806069fc17be618ea0"><div class="ttname"><a href="filtering_8h.html#a68333399cb34a5806069fc17be618ea0">gradientMagnitude</a></div><div class="ttdeci">u16 ** gradientMagnitude(u16 **src_x, u16 **src_y)</div><div class="ttdoc">Calcule le module à partir de 2 images (matricielles) niveau-de-gris sources. </div><div class="ttdef"><b>Definition:</b> filtering.c:234</div></div>
+<div class="ttc" id="filtering_8h_html_a42c19aee3c494a1058ca631ad6ea4a7c"><div class="ttname"><a href="filtering_8h.html#a42c19aee3c494a1058ca631ad6ea4a7c">filters_types</a></div><div class="ttdeci">enum _filters_types filters_types</div><div class="ttdoc">Liste des filtres possibles. </div></div>
+<div class="ttc" id="filtering_8h_html_a16b1edec772851459358081623f352c0"><div class="ttname"><a href="filtering_8h.html#a16b1edec772851459358081623f352c0">filter_t</a></div><div class="ttdeci">struct _filter_t filter_t</div><div class="ttdoc">Propriétés d&#39;un filtre. </div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a074f8baaa7797eb3bf0422cab6605fde"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a074f8baaa7797eb3bf0422cab6605fde">flt_Dilatation</a></div><div class="ttdef"><b>Definition:</b> filtering.h:32</div></div>
+<div class="ttc" id="filtering_8h_html_a28ca310899abb143bfb1f7076c9f323e"><div class="ttname"><a href="filtering_8h.html#a28ca310899abb143bfb1f7076c9f323e">mask_copy_3</a></div><div class="ttdeci">void mask_copy_3(int **dest, int src[3][3])</div><div class="ttdef"><b>Definition:</b> filtering.c:254</div></div>
+<div class="ttc" id="common_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="filtering_8h_html_a6187f50d42c976914707403a16f629d6"><div class="ttname"><a href="filtering_8h.html#a6187f50d42c976914707403a16f629d6">createGaussianFilterN</a></div><div class="ttdeci">filter_t * createGaussianFilterN(uint size)</div><div class="ttdoc">Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) </div><div class="ttdef"><b>Definition:</b> filtering.c:335</div></div>
+<div class="ttc" id="filtering_8h_html_ae0a5636234a4ec247d1bd6de0d8f23c0a3b24a38c39726d89539a1d6af88e74f0"><div class="ttname"><a href="filtering_8h.html#ae0a5636234a4ec247d1bd6de0d8f23c0a3b24a38c39726d89539a1d6af88e74f0">flt_Median</a></div><div class="ttdef"><b>Definition:</b> filtering.h:28</div></div>
+<div class="ttc" id="filtering_8h_html_aca16fc3d271729faee89245febe8db80aa8887ce313452376fa9b590aafd9be5d"><div class="ttname"><a href="filtering_8h.html#aca16fc3d271729faee89245febe8db80aa8887ce313452376fa9b590aafd9be5d">flt_m_Dilatation</a></div><div class="ttdef"><b>Definition:</b> filtering.h:44</div></div>
+<div class="ttc" id="struct__filter__t_html_a526aaec607e6b9814e2bcd952fef1e54"><div class="ttname"><a href="struct__filter__t.html#a526aaec607e6b9814e2bcd952fef1e54">_filter_t::mask</a></div><div class="ttdeci">int ** mask</div><div class="ttdef"><b>Definition:</b> filtering.h:53</div></div>
+<div class="ttc" id="struct__filter__t_html_a22d26304a3b3aca97e6311f6939dd1bf"><div class="ttname"><a href="struct__filter__t.html#a22d26304a3b3aca97e6311f6939dd1bf">_filter_t::size</a></div><div class="ttdeci">uint size</div><div class="ttdef"><b>Definition:</b> filtering.h:54</div></div>
+<div class="ttc" id="filtering_8h_html_a6652fb5ca67cae5ebd09839bef12c1a8"><div class="ttname"><a href="filtering_8h.html#a6652fb5ca67cae5ebd09839bef12c1a8">apply_filter</a></div><div class="ttdeci">u16 ** apply_filter(u16 **src, filter_t *filter)</div><div class="ttdoc">Applique un filtre sur une image en niveau de gris (matricielle) </div><div class="ttdef"><b>Definition:</b> filtering.c:104</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<map id="barriereNatif32" name="barriereNatif32">
+<area shape="rect" id="node2" href="$_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="161,5,276,32"/>
+<area shape="rect" id="node6" href="$_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="161,56,277,83"/>
+<area shape="rect" id="node9" href="$_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20" title="big32VersNatif" alt="" coords="165,107,272,133"/>
+<area shape="rect" id="node10" href="$_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2" title="natif32VersBig" alt="" coords="165,157,272,184"/>
+<area shape="rect" id="node11" href="$_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4" title="natif16VersBig" alt="" coords="165,208,272,235"/>
+<area shape="rect" id="node3" href="$_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="351,5,443,32"/>
+<area shape="rect" id="node4" href="$_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="573,5,640,32"/>
+<area shape="rect" id="node5" href="$_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="745,5,845,32"/>
+<area shape="rect" id="node7" href="$_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="325,56,469,83"/>
+<area shape="rect" id="node8" href="$utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="517,56,696,83"/>
+</map>

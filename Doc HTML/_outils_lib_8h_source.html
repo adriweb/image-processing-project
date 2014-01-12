@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI:  Fichier source de OutilsLib.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">OutilsLib.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_outils_lib_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Veuillez reporter tout commentaire a ghislain.oudinet@isen.fr</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef OUTILSLIB_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OUTILSLIB_H</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Fonction transformant un entier 32 bits little endian en entier natif</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1">little32VersNatif</a>(<span class="keywordtype">int</span> little);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Fonction transformant un entier 32 bits natif en entier little endian</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb">natif32VersLittle</a>(<span class="keywordtype">int</span> natif);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// Fonction transformant un entier 16 bits little endian en entier natif</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">short</span> <a class="code" href="_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b">little16VersNatif</a>(<span class="keywordtype">short</span> little);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// Fonction transformant un entier 16 bits natif en entier little endian</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">short</span> <a class="code" href="_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2">natif16VersLittle</a>(<span class="keywordtype">short</span> natif);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Fonction transformant un entier 32 bits big endian en entier natif</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20">big32VersNatif</a>(<span class="keywordtype">int</span> big);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// Fonction transformant un entier 32 bits natif en entier big endian</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2">natif32VersBig</a>(<span class="keywordtype">int</span> natif);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// Fonction transformant un entier 16 bits big endian en entier natif</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">short</span> <a class="code" href="_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d">big16VersNatif</a>(<span class="keywordtype">short</span> big);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// Fonction transformant un entier 16 bits natif en entier big endian</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">short</span> <a class="code" href="_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4">natif16VersBig</a>(<span class="keywordtype">short</span> natif);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="_outils_lib_8h_html_a6c0d8e9b64e3086d9aabc8cb0c5f37cb"><div class="ttname"><a href="_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb">natif32VersLittle</a></div><div class="ttdeci">int natif32VersLittle(int natif)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:45</div></div>
+<div class="ttc" id="_outils_lib_8h_html_a7209d386d69d4adc0b0584d964628d5d"><div class="ttname"><a href="_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d">big16VersNatif</a></div><div class="ttdeci">short big16VersNatif(short big)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:116</div></div>
+<div class="ttc" id="_outils_lib_8h_html_a583862b5b6bc166ee22c6bf4c71661c1"><div class="ttname"><a href="_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1">little32VersNatif</a></div><div class="ttdeci">int little32VersNatif(int little)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:31</div></div>
+<div class="ttc" id="_outils_lib_8h_html_a0163d85a5e1b6b87f34b6c6e2ed64ae2"><div class="ttname"><a href="_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2">natif16VersLittle</a></div><div class="ttdeci">short natif16VersLittle(short natif)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:74</div></div>
+<div class="ttc" id="_outils_lib_8h_html_aee4ca28c0ede9fd75733cce34fcf87d4"><div class="ttname"><a href="_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4">natif16VersBig</a></div><div class="ttdeci">short natif16VersBig(short natif)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:131</div></div>
+<div class="ttc" id="_outils_lib_8h_html_af690ad0724195c50dcc287c2e955ca20"><div class="ttname"><a href="_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20">big32VersNatif</a></div><div class="ttdeci">int big32VersNatif(int big)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:88</div></div>
+<div class="ttc" id="_outils_lib_8h_html_aaa4ad8926bbf01894ea821187859992b"><div class="ttname"><a href="_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b">little16VersNatif</a></div><div class="ttdeci">short little16VersNatif(short little)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:59</div></div>
+<div class="ttc" id="_outils_lib_8h_html_a3bbbcac44ff46064377ccf09f03ec1d2"><div class="ttname"><a href="_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2">natif32VersBig</a></div><div class="ttdeci">int natif32VersBig(int natif)</div><div class="ttdef"><b>Definition:</b> OutilsLib.c:102</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

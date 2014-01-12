@@ -1,0 +1,11 @@
+<map id="initData" name="initData">
+<area shape="rect" id="node2" href="$utils_8c.html#a3e6055fa50e77005c009ba235708872d" title="strEndsWith" alt="" coords="121,31,215,57"/>
+<area shape="rect" id="node3" href="$_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="122,81,214,108"/>
+<area shape="rect" id="node8" href="$filtering_8c.html#a58253e7d6e52d149b0e526d5bebb2dea" title="Crée le tableau des filtres de base. " alt="" coords="121,132,215,159"/>
+<area shape="rect" id="node4" href="$_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="272,31,387,57"/>
+<area shape="rect" id="node7" href="$_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="264,81,395,108"/>
+<area shape="rect" id="node5" href="$_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="443,5,573,32"/>
+<area shape="rect" id="node6" href="$_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="455,56,561,83"/>
+<area shape="rect" id="node9" href="$filtering_8c.html#a28ca310899abb143bfb1f7076c9f323e" title="mask_copy_3" alt="" coords="278,132,381,159"/>
+<area shape="rect" id="node10" href="$filtering_8c.html#a14c6955680451c69de4b7a77a02d1a96" title="mask_copy_5" alt="" coords="278,183,381,209"/>
+</map>

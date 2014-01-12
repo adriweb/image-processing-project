@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI: Variables globale</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li class="current"><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li><a href="globals.html"><span>Tout</span></a></li>
+      <li class="current"><a href="globals_func.html"><span>Fonctions</span></a></li>
+      <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_type.html"><span>Définitions&#160;de&#160;type</span></a></li>
+      <li><a href="globals_enum.html"><span>Énumérations</span></a></li>
+      <li><a href="globals_eval.html"><span>Valeurs&#160;énumérées</span></a></li>
+      <li><a href="globals_defs.html"><span>Macros</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li class="current"><a href="#index_w"><span>w</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>aNeighborIsADifferentMarker()
+: <a class="el" href="watershed_8c.html#a96dc86101d1f93b30bc7078a1a597f19">watershed.c</a>
+</li>
+<li>aNeighborIsEqual()
+: <a class="el" href="watershed_8c.html#af6172450ed6649ab8ab73802bcecb1ff">watershed.c</a>
+</li>
+<li>aNeighborIsLower()
+: <a class="el" href="watershed_8c.html#a91bd7bce0ecb92115f7f7298bd9a2c43">watershed.c</a>
+</li>
+<li>apply_filter()
+: <a class="el" href="filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a6652fb5ca67cae5ebd09839bef12c1a8">filtering.h</a>
+</li>
+<li>areTheMarkersDifferent()
+: <a class="el" href="watershed_8c.html#af20a77cc704c1ecb8c6d1ccfd85270de">watershed.c</a>
+</li>
+<li>array_max_idx()
+: <a class="el" href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">TD2-TDI.h</a>
+, <a class="el" href="utils_8c.html#a6a47806608d658f3d9872a5b57e9ff4a">utils.c</a>
+, <a class="el" href="utils_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">utils.h</a>
+</li>
+<li>array_min_idx()
+: <a class="el" href="_t_d2-_t_d_i_8h.html#a74b227d112c3009aa5bd6ee58d015038">TD2-TDI.h</a>
+, <a class="el" href="utils_8c.html#a74b227d112c3009aa5bd6ee58d015038">utils.c</a>
+, <a class="el" href="utils_8h.html#a74b227d112c3009aa5bd6ee58d015038">utils.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>barriereNatif16()
+: <a class="el" href="_outils_lib_8c.html#aefc8801609e291a0e51fc0ba3d5be839">OutilsLib.c</a>
+</li>
+<li>barriereNatif32()
+: <a class="el" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904">OutilsLib.c</a>
+</li>
+<li>big16VersNatif()
+: <a class="el" href="_outils_lib_8c.html#a7209d386d69d4adc0b0584d964628d5d">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d">OutilsLib.h</a>
+</li>
+<li>big32VersNatif()
+: <a class="el" href="_outils_lib_8c.html#af690ad0724195c50dcc287c2e955ca20">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20">OutilsLib.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>choixAction()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">TD2-TDI.h</a>
+</li>
+<li>couleur2NG()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a2f1b599737c6980923f10c39df851d9b">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a2f1b599737c6980923f10c39df851d9b">TD2-TDI.h</a>
+</li>
+<li>createCustomFilter()
+: <a class="el" href="filtering_8c.html#a811688c95e4c146501282802ba4faf82">filtering.c</a>
+</li>
+<li>createFilters()
+: <a class="el" href="filtering_8c.html#a58253e7d6e52d149b0e526d5bebb2dea">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a58253e7d6e52d149b0e526d5bebb2dea">filtering.h</a>
+</li>
+<li>createGaussianFilterN()
+: <a class="el" href="filtering_8c.html#a6187f50d42c976914707403a16f629d6">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a6187f50d42c976914707403a16f629d6">filtering.h</a>
+</li>
+<li>cree3matrices()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#abe5fd33b5e4a923167ce71017706454b">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#abe5fd33b5e4a923167ce71017706454b">TD2-TDI.h</a>
+</li>
+<li>creeImage()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#af625077874700357877346213c244e2e">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#af625077874700357877346213c244e2e">TD2-TDI.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>do_GaussienN()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a048fdd6e780425ee715f31f748a8fc3b">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a048fdd6e780425ee715f31f748a8fc3b">TD2-TDI.h</a>
+</li>
+<li>do_PaletteReduction()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#acef9187016e3f7c11c5adc8d5579cb84">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#acef9187016e3f7c11c5adc8d5579cb84">TD2-TDI.h</a>
+</li>
+<li>do_Seuil()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#ad24d4eaa83f7f7a95566fc0eca4e2b31">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#ad24d4eaa83f7f7a95566fc0eca4e2b31">TD2-TDI.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>ecrisBMPRGB_Dans()
+: <a class="el" href="_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab">BmpLib.c</a>
+, <a class="el" href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab">BmpLib.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>freeFilter()
+: <a class="el" href="filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6">filtering.c</a>
+, <a class="el" href="filtering_8h.html#aa94daa1ce261ee7e2ff9bf1bca664af6">filtering.h</a>
+</li>
+<li>freeStuff()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#abd3842986ee948bf12945d05232f33b8">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#abd3842986ee948bf12945d05232f33b8">TD2-TDI.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>generateNormalizedGaussianNKernel()
+: <a class="el" href="filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9">filtering.c</a>
+</li>
+<li>get_seuil_otsu()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#abcde85a3241102a2fef9ccce4d2e7c86">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#abcde85a3241102a2fef9ccce4d2e7c86">TD2-TDI.h</a>
+</li>
+<li>get_the_nb_marker()
+: <a class="el" href="watershed_8c.html#ab4baedf33e60ecdf7c5c9c27110236fd">watershed.c</a>
+</li>
+<li>getLatestSavedImageName()
+: <a class="el" href="utils_8c.html#a70984b5f46b2b422f9b9b7e884c5da54">utils.c</a>
+, <a class="el" href="utils_8h.html#a70984b5f46b2b422f9b9b7e884c5da54">utils.h</a>
+</li>
+<li>getMedian()
+: <a class="el" href="filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a45fa4f551c007a600812bfc1432af0b6">filtering.h</a>
+</li>
+<li>getMinima()
+: <a class="el" href="watershed_8c.html#a77505c95e394a38b7524cd86568fca4f">watershed.c</a>
+, <a class="el" href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f">watershed.h</a>
+</li>
+<li>getNeighbors()
+: <a class="el" href="watershed_8c.html#a0cd89a1892813868dbc0de56a80dfdcf">watershed.c</a>
+, <a class="el" href="watershed_8h.html#a0cd89a1892813868dbc0de56a80dfdcf">watershed.h</a>
+</li>
+<li>getNumberOfMarkersInNeighboors()
+: <a class="el" href="watershed_8c.html#aa6225e04154e1675ff28fbe234690bec">watershed.c</a>
+</li>
+<li>gradientMagnitude()
+: <a class="el" href="filtering_8c.html#a68333399cb34a5806069fc17be618ea0">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a68333399cb34a5806069fc17be618ea0">filtering.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>histo_egalisation()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a40fb5165a751fca816d1da741ade0008">TD2-TDI.c</a>
+</li>
+<li>histogramme()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">TD2-TDI.h</a>
+</li>
+<li>histogrammeCumule()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#aac6d6b4fadaa5ae86a90e603fc1d1ed2">TD2-TDI.c</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>image_flooding_overlay()
+: <a class="el" href="watershed_8c.html#abf7225d35b3bcf670fa4b11a0dcc071a">watershed.c</a>
+, <a class="el" href="watershed_8h.html#abf7225d35b3bcf670fa4b11a0dcc071a">watershed.h</a>
+</li>
+<li>imageHistogramme()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#afc049c9711553695dfa71cde0506b4ac">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#afc049c9711553695dfa71cde0506b4ac">TD2-TDI.h</a>
+</li>
+<li>initData()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#aa0fea0eef7c578515efb288601398016">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016">TD2-TDI.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>libereDonneesImageRGB()
+: <a class="el" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9">BmpLib.c</a>
+, <a class="el" href="_bmp_lib_8h.html#a84142edceda87c3a09dab077ab2b0ef9">BmpLib.h</a>
+</li>
+<li>lisBMPRGB()
+: <a class="el" href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e">BmpLib.c</a>
+, <a class="el" href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e">BmpLib.h</a>
+</li>
+<li>little16VersNatif()
+: <a class="el" href="_outils_lib_8c.html#aaa4ad8926bbf01894ea821187859992b">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b">OutilsLib.h</a>
+</li>
+<li>little32VersNatif()
+: <a class="el" href="_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1">OutilsLib.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>MAIN_NAME()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a964db043ce460565b098e3c7cbd94dc0">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0">TD2-TDI.h</a>
+</li>
+<li>mask_copy_3()
+: <a class="el" href="filtering_8c.html#a28ca310899abb143bfb1f7076c9f323e">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a28ca310899abb143bfb1f7076c9f323e">filtering.h</a>
+</li>
+<li>mask_copy_5()
+: <a class="el" href="filtering_8c.html#a14c6955680451c69de4b7a77a02d1a96">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a14c6955680451c69de4b7a77a02d1a96">filtering.h</a>
+</li>
+<li>matrix_copy()
+: <a class="el" href="filtering_8c.html#a320c6355c3801c9a3a5be1d65ad9dbbf">filtering.c</a>
+, <a class="el" href="filtering_8h.html#a320c6355c3801c9a3a5be1d65ad9dbbf">filtering.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>natif16VersBig()
+: <a class="el" href="_outils_lib_8c.html#aee4ca28c0ede9fd75733cce34fcf87d4">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4">OutilsLib.h</a>
+</li>
+<li>natif16VersLittle()
+: <a class="el" href="_outils_lib_8c.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2">OutilsLib.h</a>
+</li>
+<li>natif32VersBig()
+: <a class="el" href="_outils_lib_8c.html#a3bbbcac44ff46064377ccf09f03ec1d2">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2">OutilsLib.h</a>
+</li>
+<li>natif32VersLittle()
+: <a class="el" href="_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb">OutilsLib.c</a>
+, <a class="el" href="_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb">OutilsLib.h</a>
+</li>
+<li>negatifImage()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a0f352f01150e4ba92f0ff6a010867d48">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a0f352f01150e4ba92f0ff6a010867d48">TD2-TDI.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>old_ws_flooding()
+: <a class="el" href="watershed_8c.html#ad7a708e02d06b89cb9c5c3ef0dbe1583">watershed.c</a>
+, <a class="el" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583">watershed.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>paletteReduction()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a77741f079e68b24e0def7385f8adabf2">TD2-TDI.c</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>reBound()
+: <a class="el" href="filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00">filtering.c</a>
+</li>
+<li>rectangleEnglobant()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a5dc372147311b92912c0b6cee7d0c8b1">TD2-TDI.c</a>
+</li>
+<li>reNormalize()
+: <a class="el" href="filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64">filtering.c</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>saveBMPwithCurrentName()
+: <a class="el" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">TD2-TDI.h</a>
+, <a class="el" href="utils_8c.html#a2429a50c6d2e2346df13fb65f9a1e405">utils.c</a>
+, <a class="el" href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">utils.h</a>
+</li>
+<li>seuilleImageNG()
+: <a class="el" href="_t_d2-_t_d_i_8c.html#a4038f97d7fb7adae4939abcc68290fb2">TD2-TDI.c</a>
+, <a class="el" href="_t_d2-_t_d_i_8h.html#a4038f97d7fb7adae4939abcc68290fb2">TD2-TDI.h</a>
+</li>
+<li>strEndsWith()
+: <a class="el" href="utils_8c.html#a3e6055fa50e77005c009ba235708872d">utils.c</a>
+, <a class="el" href="utils_8h.html#a3e6055fa50e77005c009ba235708872d">utils.h</a>
+</li>
+<li>systemeBigEndian()
+: <a class="el" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692">OutilsLib.c</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>tailleScanLineRGB()
+: <a class="el" href="_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c">BmpLib.c</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>watershed()
+: <a class="el" href="watershed_8c.html#a6a682d177cea851ab1416b0964f09a9f">watershed.c</a>
+, <a class="el" href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f">watershed.h</a>
+</li>
+<li>ws_flooding()
+: <a class="el" href="watershed_8c.html#a6abd3aeb667b14f6a43d663b648dcdc8">watershed.c</a>
+, <a class="el" href="watershed_8h.html#a6abd3aeb667b14f6a43d663b648dcdc8">watershed.h</a>
+</li>
+<li>ws_water_grow()
+: <a class="el" href="watershed_8c.html#abe37a2f43ae7501ab92bf4d04ddad62a">watershed.c</a>
+, <a class="el" href="watershed_8h.html#abe37a2f43ae7501ab92bf4d04ddad62a">watershed.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI: Référence du fichier common.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Définitions de type</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier common.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br/>
+<code>#include &lt;stdlib.h&gt;</code><br/>
+<code>#include &lt;stdbool.h&gt;</code><br/>
+<code>#include &lt;string.h&gt;</code><br/>
+<code>#include &lt;math.h&gt;</code><br/>
+<code>#include &lt;locale.h&gt;</code><br/>
+<code>#include &lt;time.h&gt;</code><br/>
+<code>#include &quot;<a class="el" href="_bmp_lib_8h_source.html">BmpLib.h</a>&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de common.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="common_8h__incl.png" border="0" usemap="#common_8h" alt=""/></div>
+<map name="common_8h" id="common_8h">
+<area shape="rect" id="node9" href="_bmp_lib_8h.html" title="BmpLib.h" alt="" coords="580,80,657,107"/></map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div class="dyncontent">
+<div class="center"><img src="common_8h__dep__incl.png" border="0" usemap="#common_8hdep" alt=""/></div>
+<map name="common_8hdep" id="common_8hdep">
+<area shape="rect" id="node2" href="filtering_8h.html" title="filtering.h" alt="" coords="5,80,80,107"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8h.html" title="TD2&#45;TDI.h" alt="" coords="104,80,187,107"/><area shape="rect" id="node6" href="watershed_8h.html" title="watershed.h" alt="" coords="211,80,303,107"/><area shape="rect" id="node8" href="utils_8h.html" title="utils.h" alt="" coords="327,80,384,107"/><area shape="rect" id="node3" href="filtering_8c.html" title="filtering.c" alt="" coords="5,155,80,181"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8c.html" title="TD2&#45;TDI.c" alt="" coords="104,155,187,181"/><area shape="rect" id="node7" href="watershed_8c.html" title="watershed.c" alt="" coords="211,155,303,181"/><area shape="rect" id="node9" href="utils_8c.html" title="utils.c" alt="" coords="327,155,384,181"/></map>
+</div>
+</div>
+<p><a href="common_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a6c17169f464fb1a2995dbe06faa47a5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a6c17169f464fb1a2995dbe06faa47a5f">CONSOLE</a></td></tr>
+<tr class="separator:a6c17169f464fb1a2995dbe06faa47a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a7edc70204feb7b37f269cbd6bc228"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ad5a7edc70204feb7b37f269cbd6bc228">MAIN_NAME</a>&#160;&#160;&#160;main</td></tr>
+<tr class="separator:ad5a7edc70204feb7b37f269cbd6bc228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46b2ebcd4c426b06cda147ddc1001e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;&#160;&#160;unsigned int</td></tr>
+<tr class="separator:ad46b2ebcd4c426b06cda147ddc1001e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21658776274b3d146c674318b635a334"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a21658776274b3d146c674318b635a334">INT_MIN</a>&#160;&#160;&#160;(-2147483647 - 1)   /* minimum (signed) int value */</td></tr>
+<tr class="separator:a21658776274b3d146c674318b635a334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec306f36d50c7375e74f0d1c55a3a67"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a>&#160;&#160;&#160;2147483647        /* maximum (signed) int value */</td></tr>
+<tr class="separator:a9ec306f36d50c7375e74f0d1c55a3a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4435ae4ec4f90d537406f802968b254c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a4435ae4ec4f90d537406f802968b254c">scanf_s</a>&#160;&#160;&#160;scanf</td></tr>
+<tr class="memdesc:a4435ae4ec4f90d537406f802968b254c"><td class="mdescLeft">&#160;</td><td class="mdescRight">no-VS compatibility stuff ("secure" functions)  <a href="#a4435ae4ec4f90d537406f802968b254c">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a4435ae4ec4f90d537406f802968b254c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083cd921f3afd07cb63b1effb9718ff9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a083cd921f3afd07cb63b1effb9718ff9">gets_s</a>(a, b)&#160;&#160;&#160;gets(a)</td></tr>
+<tr class="separator:a083cd921f3afd07cb63b1effb9718ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578ab38066e51d186cd13e8640a8fe74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a578ab38066e51d186cd13e8640a8fe74">strcpy_s</a>(a, b, c)&#160;&#160;&#160;strncpy(a,c,b)</td></tr>
+<tr class="separator:a578ab38066e51d186cd13e8640a8fe74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a7edc70204feb7b37f269cbd6bc228"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ad5a7edc70204feb7b37f269cbd6bc228">MAIN_NAME</a>&#160;&#160;&#160;main</td></tr>
+<tr class="separator:ad5a7edc70204feb7b37f269cbd6bc228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dda4d034150e3159927f83d9d15d840"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a9dda4d034150e3159927f83d9d15d840">NUMARGS</a>(...)&#160;&#160;&#160;(sizeof((int[]){__VA_ARGS__})/sizeof(int))</td></tr>
+<tr class="separator:a9dda4d034150e3159927f83d9d15d840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae2dc0d8a56669f6fbf85b35f09d36f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#adae2dc0d8a56669f6fbf85b35f09d36f">GRAYLEVELS</a>&#160;&#160;&#160;256</td></tr>
+<tr class="separator:adae2dc0d8a56669f6fbf85b35f09d36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4315ff794e4c8b4dcc7bb37f3c0def1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a4315ff794e4c8b4dcc7bb37f3c0def1d">secure_free</a>(x)&#160;&#160;&#160;do { if (x) { free(x); x = <a class="el" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; } } while(0)</td></tr>
+<tr class="memdesc:a4315ff794e4c8b4dcc7bb37f3c0def1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">free(NULL) shouldn't be an issue on decent compilers, but on others... Also, sets to NULL the freed pointer.  <a href="#a4315ff794e4c8b4dcc7bb37f3c0def1d">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a4315ff794e4c8b4dcc7bb37f3c0def1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259aac00ed43fd7ac58196b770963525"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a259aac00ed43fd7ac58196b770963525">error</a>(...)&#160;&#160;&#160;do { fprintf(stderr, __VA_ARGS__); fflush(stderr); } while(0)</td></tr>
+<tr class="memdesc:a259aac00ed43fd7ac58196b770963525"><td class="mdescLeft">&#160;</td><td class="mdescRight">fprintf vers le flux d'erreur + flush  <a href="#a259aac00ed43fd7ac58196b770963525">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a259aac00ed43fd7ac58196b770963525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e9cc3cfa7ab179dc149bd45db2b8ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a12e9cc3cfa7ab179dc149bd45db2b8ab">sauveImageNG</a>(img, img_ng)&#160;&#160;&#160;<a class="el" href="_t_d2-_t_d_i_8h.html#af625077874700357877346213c244e2e">creeImage</a>(img, img_ng, img_ng, img_ng)</td></tr>
+<tr class="memdesc:a12e9cc3cfa7ab179dc149bd45db2b8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sachant que R=G=B pour les niveaux de gris, on utilise la fonction générale avec les 3 mêmes paramètres.  <a href="#a12e9cc3cfa7ab179dc149bd45db2b8ab">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a12e9cc3cfa7ab179dc149bd45db2b8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Définitions de type</h2></td></tr>
+<tr class="memitem:aed742c436da53c1080638ce6ef7d13de"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></td></tr>
+<tr class="separator:aed742c436da53c1080638ce6ef7d13de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b167025ed1eead1300bc4dbdfb230e"><td class="memItemLeft" align="right" valign="top">typedef unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></td></tr>
+<tr class="separator:aa0b167025ed1eead1300bc4dbdfb230e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ad9478d81a7aaf2593e8d9c3d06a14"><td class="memItemLeft" align="right" valign="top">typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td></tr>
+<tr class="separator:a91ad9478d81a7aaf2593e8d9c3d06a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab8ad6ffca8f2c5a2106b513aa1931077"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ab8ad6ffca8f2c5a2106b513aa1931077">img_w</a></td></tr>
+<tr class="separator:ab8ad6ffca8f2c5a2106b513aa1931077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2b1bb1ff4a026371bd01bbecb171f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#adb2b1bb1ff4a026371bd01bbecb171f9">img_h</a></td></tr>
+<tr class="separator:adb2b1bb1ff4a026371bd01bbecb171f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d0c12cb214f0f4e818a284b86d2816"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ab4d0c12cb214f0f4e818a284b86d2816">nomFichier</a></td></tr>
+<tr class="separator:ab4d0c12cb214f0f4e818a284b86d2816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dbba0cff762bf658504bf0933b0ae3e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a5dbba0cff762bf658504bf0933b0ae3e">latestSavedImageName</a></td></tr>
+<tr class="separator:a5dbba0cff762bf658504bf0933b0ae3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a class="anchor" id="a6c17169f464fb1a2995dbe06faa47a5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CONSOLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a259aac00ed43fd7ac58196b770963525"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define error</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;do { fprintf(stderr, __VA_ARGS__); fflush(stderr); } while(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fprintf vers le flux d'erreur + flush </p>
+
+</div>
+</div>
+<a class="anchor" id="a083cd921f3afd07cb63b1effb9718ff9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define gets_s</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;gets(a)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adae2dc0d8a56669f6fbf85b35f09d36f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GRAYLEVELS&#160;&#160;&#160;256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9ec306f36d50c7375e74f0d1c55a3a67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INT_MAX&#160;&#160;&#160;2147483647        /* maximum (signed) int value */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a21658776274b3d146c674318b635a334"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INT_MIN&#160;&#160;&#160;(-2147483647 - 1)   /* minimum (signed) int value */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad5a7edc70204feb7b37f269cbd6bc228"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAIN_NAME&#160;&#160;&#160;main</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad5a7edc70204feb7b37f269cbd6bc228"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAIN_NAME&#160;&#160;&#160;main</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9dda4d034150e3159927f83d9d15d840"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NUMARGS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;(sizeof((int[]){__VA_ARGS__})/sizeof(int))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a12e9cc3cfa7ab179dc149bd45db2b8ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sauveImageNG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">img, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">img_ng&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="_t_d2-_t_d_i_8h.html#af625077874700357877346213c244e2e">creeImage</a>(img, img_ng, img_ng, img_ng)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sachant que R=G=B pour les niveaux de gris, on utilise la fonction générale avec les 3 mêmes paramètres. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4435ae4ec4f90d537406f802968b254c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define scanf_s&#160;&#160;&#160;scanf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>no-VS compatibility stuff ("secure" functions) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4315ff794e4c8b4dcc7bb37f3c0def1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define secure_free</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;do { if (x) { free(x); x = <a class="el" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; } } while(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>free(NULL) shouldn't be an issue on decent compilers, but on others... Also, sets to NULL the freed pointer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a578ab38066e51d186cd13e8640a8fe74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define strcpy_s</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;strncpy(a,c,b)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad46b2ebcd4c426b06cda147ddc1001e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;&#160;&#160;unsigned int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des définitions de type</h2>
+<a class="anchor" id="aa0b167025ed1eead1300bc4dbdfb230e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned short int <a class="el" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed742c436da53c1080638ce6ef7d13de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned char <a class="el" href="common_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a91ad9478d81a7aaf2593e8d9c3d06a14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned int <a class="el" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a class="anchor" id="adb2b1bb1ff4a026371bd01bbecb171f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int img_h</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8ad6ffca8f2c5a2106b513aa1931077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int img_w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5dbba0cff762bf658504bf0933b0ae3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* latestSavedImageName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4d0c12cb214f0f4e818a284b86d2816"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* nomFichier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

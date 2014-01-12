@@ -1,0 +1,10 @@
+<map id="do_GaussienN" name="do_GaussienN">
+<area shape="rect" id="node2" href="$filtering_8c.html#a6187f50d42c976914707403a16f629d6" title="Crée un filtre gaussien de taille n (paramètre &#39;size&#39;) " alt="" coords="174,41,325,68"/>
+<area shape="rect" id="node4" href="$filtering_8c.html#a6652fb5ca67cae5ebd09839bef12c1a8" title="Applique un filtre sur une image en niveau de gris (matricielle) " alt="" coords="207,96,292,123"/>
+<area shape="rect" id="node8" href="$filtering_8c.html#aa94daa1ce261ee7e2ff9bf1bca664af6" title="freeFilter" alt="" coords="213,147,286,173"/>
+<area shape="rect" id="node9" href="$_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="160,197,339,224"/>
+<area shape="rect" id="node3" href="$filtering_8c.html#a541b2750e40647d82b778b1b9e6292d9" title="generateNormalizedGaussian\lNKernel" alt="" coords="387,5,579,46"/>
+<area shape="rect" id="node5" href="$filtering_8c.html#a45fa4f551c007a600812bfc1432af0b6" title="Détermine la valeur médiane des éléments du tableau d&#39;entiers. " alt="" coords="441,71,524,97"/>
+<area shape="rect" id="node6" href="$filtering_8c.html#ac768a130cec9cef73c39789ea94fdf00" title="reBound" alt="" coords="447,121,518,148"/>
+<area shape="rect" id="node7" href="$filtering_8c.html#ae644870f261ea7c38e95d7e9809c3b64" title="reNormalize" alt="" coords="437,172,528,199"/>
+</map>

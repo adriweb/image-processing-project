@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI:  Fichier source de TD2-TDI.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">TD2-TDI.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_t_d2-_t_d_i_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Adrien Bertrand</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Mini-Projet TdI</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// v4.5 - 11/01/2014</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef __TD2_TDI_H__</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __TD2_TDI_H__</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="common_8h.html">common.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*** Globals ***/</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">extern</span> <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#a4d9dbc077ba458588b3bc3f1e92d6af7">image_orig</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">extern</span> <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">extern</span> <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#af4bad2e2dfbf1f96a92c00a6f2e9df7f">histo_img</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">extern</span> <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#a774fe1e67338fbcf8f1a228d4987b12c">tmp_img</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a2082ae9a376054311d5f9e2c6df7be79">tmp_ng1</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a24b7621092763b4031194be34d83ec6f">tmp_ng2</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a40711c86b3c5abd972049887abee5113">tmp_ng3</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a347709ed39161d4cdc97cb37485e8608">matrice_bleue</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a2174169414e4aed56883a4f1d6f17e1e">matrice_rouge</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#ad0ee4f0e22b9c540b0ef94bda903a7a9">matrice_verte</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** <a class="code" href="_t_d2-_t_d_i_8h.html#a30f5febb7a3f9d2c549fe5052d9b7bfa">image_ng</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#ac8c4b498bf58c85ccddcb9bd0b56883a">histo</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">extern</span> <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> * <a class="code" href="_t_d2-_t_d_i_8h.html#ae2507b7ddcdad238a300803c82238c7c">histoCumule</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_t_d2-_t_d_i_8h.html#aa56e77425eb56d4fdfb3670af063a485">man_seuil</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_t_d2-_t_d_i_8h.html#ad7da76559f713de6cd79b985ae5aa9a0">taille_gaussien</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_t_d2-_t_d_i_8h.html#a2aa4cda3a079cb7b3dc6b1c0f6264d8a">nbrCouleursReduc</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="struct__rect__t.html">   34</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__rect__t.html">_rect_t</a> {</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="struct__rect__t.html#ac98ffc0d5712bf00634148edbd13fcc8">   35</a></span>&#160;    <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="code" href="struct__rect__t.html#a7ce14bf4029a6d24e8c67abd1019dc49">x</a>, <a class="code" href="struct__rect__t.html#ac98ffc0d5712bf00634148edbd13fcc8">y</a>, <a class="code" href="struct__rect__t.html#afdeff54db9a334718662b709641fdfe1">w</a>, <a class="code" href="struct__rect__t.html#a0cf902ed91cf35330b639ab2ec1038dc">h</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;} <a class="code" href="_t_d2-_t_d_i_8h.html#a7ee63dd3a5a714229eda955887605141">rect_t</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/*** Prototypes ***/</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="_t_d2-_t_d_i_8h.html#abe5fd33b5e4a923167ce71017706454b">cree3matrices</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_bleue, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_rouge, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_verte, <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* image);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="_t_d2-_t_d_i_8h.html#af625077874700357877346213c244e2e">creeImage</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* image, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_bleue, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_rouge, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_verte);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="_t_d2-_t_d_i_8h.html#a0f352f01150e4ba92f0ff6a010867d48">negatifImage</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_bleue, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_rouge, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_verte);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>**   <a class="code" href="_t_d2-_t_d_i_8h.html#a2f1b599737c6980923f10c39df851d9b">couleur2NG</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_bleue, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_rouge, <a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** mat_verte, <span class="keywordtype">bool</span> perceptive);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="_t_d2-_t_d_i_8h.html#a4038f97d7fb7adae4939abcc68290fb2">seuilleImageNG</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** imageNG, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> seuil);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>*   <a class="code" href="_t_d2-_t_d_i_8h.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">histogramme</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** imageNG);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keywordtype">int</span>     <a class="code" href="_t_d2-_t_d_i_8h.html#a74b227d112c3009aa5bd6ee58d015038">array_min_idx</a>(<span class="keywordtype">int</span>* arr, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keywordtype">int</span>     <a class="code" href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">array_max_idx</a>(<span class="keywordtype">int</span>* arr, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* <a class="code" href="_t_d2-_t_d_i_8h.html#afc049c9711553695dfa71cde0506b4ac">imageHistogramme</a>(<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>* <a class="code" href="_t_d2-_t_d_i_8h.html#ac8c4b498bf58c85ccddcb9bd0b56883a">histo</a>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keywordtype">int</span>     <a class="code" href="_t_d2-_t_d_i_8h.html#abcde85a3241102a2fef9ccce4d2e7c86">get_seuil_otsu</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">saveBMPwithCurrentName</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * image, <span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#ad24d4eaa83f7f7a95566fc0eca4e2b31">do_Seuil</a>(<span class="keywordtype">int</span> seuil);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#a048fdd6e780425ee715f31f748a8fc3b">do_GaussienN</a>(<span class="keywordtype">int</span> gaussien_size);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#acef9187016e3f7c11c5adc8d5579cb84">do_PaletteReduction</a>(<span class="keywordtype">int</span> level);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016">initData</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">choixAction</a>(<span class="keywordtype">int</span> choix);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_t_d2-_t_d_i_8h.html#abd3842986ee948bf12945d05232f33b8">freeStuff</a>();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0">MAIN_NAME</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a4038f97d7fb7adae4939abcc68290fb2"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a4038f97d7fb7adae4939abcc68290fb2">seuilleImageNG</a></div><div class="ttdeci">void seuilleImageNG(u16 **imageNG, uint seuil)</div><div class="ttdoc">Réalise le seuillage d&#39;une image en niveau de gris (matricielle) </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:87</div></div>
+<div class="ttc" id="common_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> common.h:27</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a2429a50c6d2e2346df13fb65f9a1e405"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">saveBMPwithCurrentName</a></div><div class="ttdeci">void saveBMPwithCurrentName(DonneesImageRGB *image, const char *name)</div><div class="ttdef"><b>Definition:</b> utils.c:35</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_aa56e77425eb56d4fdfb3670af063a485"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#aa56e77425eb56d4fdfb3670af063a485">man_seuil</a></div><div class="ttdeci">int man_seuil</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:16</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_aa0fea0eef7c578515efb288601398016"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016">initData</a></div><div class="ttdeci">void initData(int argc, char *argv[])</div><div class="ttdoc">Initialise les données de base. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:655</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a24b7621092763b4031194be34d83ec6f"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a24b7621092763b4031194be34d83ec6f">tmp_ng2</a></div><div class="ttdeci">u16 ** tmp_ng2</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:25</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a3ca4f4f133dc1bd40b8c3cc02eaa9f70"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a3ca4f4f133dc1bd40b8c3cc02eaa9f70">histogramme</a></div><div class="ttdeci">uint * histogramme(u16 **imageNG)</div><div class="ttdoc">Construit l&#39;histogramme (sous forme de tableau d&#39;entier) à partir de l&#39;image en niveau de gris (matri...</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:95</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_abcde85a3241102a2fef9ccce4d2e7c86"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#abcde85a3241102a2fef9ccce4d2e7c86">get_seuil_otsu</a></div><div class="ttdeci">int get_seuil_otsu(u16 **src)</div><div class="ttdoc">Teste si les couleurs RGB en paramètres sont égales. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:197</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a2f1b599737c6980923f10c39df851d9b"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a2f1b599737c6980923f10c39df851d9b">couleur2NG</a></div><div class="ttdeci">u16 ** couleur2NG(u16 **mat_bleue, u16 **mat_rouge, u16 **mat_verte, bool perceptive)</div><div class="ttdoc">Crée une image en niveau-de-gris, à partir des matrices de composantes RGB de l&#39;image couleur source...</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:70</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a0f352f01150e4ba92f0ff6a010867d48"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a0f352f01150e4ba92f0ff6a010867d48">negatifImage</a></div><div class="ttdeci">void negatifImage(u16 **mat_bleue, u16 **mat_rouge, u16 **mat_verte)</div><div class="ttdoc">Inverse in-place les couleurs à partir des matrices des composantes RGB. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:58</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a774fe1e67338fbcf8f1a228d4987b12c"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a774fe1e67338fbcf8f1a228d4987b12c">tmp_img</a></div><div class="ttdeci">DonneesImageRGB * tmp_img</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:23</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a2082ae9a376054311d5f9e2c6df7be79"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a2082ae9a376054311d5f9e2c6df7be79">tmp_ng1</a></div><div class="ttdeci">u16 ** tmp_ng1</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:24</div></div>
+<div class="ttc" id="struct__rect__t_html"><div class="ttname"><a href="struct__rect__t.html">_rect_t</a></div><div class="ttdoc">Simple rectangle défini par son sommet en haut à gauche, et ses dimensions. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.h:34</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_aec77693c2fc48decf2d7da8013cbbdd3"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a></div><div class="ttdeci">DonneesImageRGB * image</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:21</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a2174169414e4aed56883a4f1d6f17e1e"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a2174169414e4aed56883a4f1d6f17e1e">matrice_rouge</a></div><div class="ttdeci">u16 ** matrice_rouge</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:28</div></div>
+<div class="ttc" id="common_8h_html_aa0b167025ed1eead1300bc4dbdfb230e"><div class="ttname"><a href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></div><div class="ttdeci">unsigned short int u16</div><div class="ttdef"><b>Definition:</b> common.h:26</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a30f5febb7a3f9d2c549fe5052d9b7bfa"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a30f5febb7a3f9d2c549fe5052d9b7bfa">image_ng</a></div><div class="ttdeci">u16 ** image_ng</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:30</div></div>
+<div class="ttc" id="struct__rect__t_html_afdeff54db9a334718662b709641fdfe1"><div class="ttname"><a href="struct__rect__t.html#afdeff54db9a334718662b709641fdfe1">_rect_t::w</a></div><div class="ttdeci">uint w</div><div class="ttdef"><b>Definition:</b> TD2-TDI.h:35</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a964db043ce460565b098e3c7cbd94dc0"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0">MAIN_NAME</a></div><div class="ttdeci">int MAIN_NAME(int argc, char *argv[])</div><div class="ttdoc">main au nom variable selon la compilation en console ou en GUI </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:724</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_af625077874700357877346213c244e2e"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#af625077874700357877346213c244e2e">creeImage</a></div><div class="ttdeci">void creeImage(DonneesImageRGB *image, u16 **mat_bleue, u16 **mat_rouge, u16 **mat_verte)</div><div class="ttdoc">Crée dans &#39;image&#39;, l&#39;image formée par les 3 composantes couleurs RGB. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:47</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_ad24d4eaa83f7f7a95566fc0eca4e2b31"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#ad24d4eaa83f7f7a95566fc0eca4e2b31">do_Seuil</a></div><div class="ttdeci">void do_Seuil(int seuil)</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:236</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a7ee63dd3a5a714229eda955887605141"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a7ee63dd3a5a714229eda955887605141">rect_t</a></div><div class="ttdeci">struct _rect_t rect_t</div><div class="ttdoc">Simple rectangle défini par son sommet en haut à gauche, et ses dimensions. </div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a347709ed39161d4cdc97cb37485e8608"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a347709ed39161d4cdc97cb37485e8608">matrice_bleue</a></div><div class="ttdeci">u16 ** matrice_bleue</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:27</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_af4bad2e2dfbf1f96a92c00a6f2e9df7f"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#af4bad2e2dfbf1f96a92c00a6f2e9df7f">histo_img</a></div><div class="ttdeci">DonneesImageRGB * histo_img</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:22</div></div>
+<div class="ttc" id="struct__rect__t_html_a0cf902ed91cf35330b639ab2ec1038dc"><div class="ttname"><a href="struct__rect__t.html#a0cf902ed91cf35330b639ab2ec1038dc">_rect_t::h</a></div><div class="ttdeci">uint h</div><div class="ttdef"><b>Definition:</b> TD2-TDI.h:35</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_abd3842986ee948bf12945d05232f33b8"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#abd3842986ee948bf12945d05232f33b8">freeStuff</a></div><div class="ttdeci">void freeStuff()</div><div class="ttdoc">Libère la mémoire utilisée par les données allouées. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:702</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a4d9dbc077ba458588b3bc3f1e92d6af7"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a4d9dbc077ba458588b3bc3f1e92d6af7">image_orig</a></div><div class="ttdeci">DonneesImageRGB * image_orig</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:20</div></div>
+<div class="ttc" id="struct__rect__t_html_ac98ffc0d5712bf00634148edbd13fcc8"><div class="ttname"><a href="struct__rect__t.html#ac98ffc0d5712bf00634148edbd13fcc8">_rect_t::y</a></div><div class="ttdeci">uint y</div><div class="ttdef"><b>Definition:</b> TD2-TDI.h:35</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_ad7da76559f713de6cd79b985ae5aa9a0"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#ad7da76559f713de6cd79b985ae5aa9a0">taille_gaussien</a></div><div class="ttdeci">int taille_gaussien</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:17</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a40711c86b3c5abd972049887abee5113"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a40711c86b3c5abd972049887abee5113">tmp_ng3</a></div><div class="ttdeci">u16 ** tmp_ng3</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:26</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a2aa4cda3a079cb7b3dc6b1c0f6264d8a"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a2aa4cda3a079cb7b3dc6b1c0f6264d8a">nbrCouleursReduc</a></div><div class="ttdeci">int nbrCouleursReduc</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:18</div></div>
+<div class="ttc" id="struct__rect__t_html_a7ce14bf4029a6d24e8c67abd1019dc49"><div class="ttname"><a href="struct__rect__t.html#a7ce14bf4029a6d24e8c67abd1019dc49">_rect_t::x</a></div><div class="ttdeci">uint x</div><div class="ttdef"><b>Definition:</b> TD2-TDI.h:35</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_abe5fd33b5e4a923167ce71017706454b"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#abe5fd33b5e4a923167ce71017706454b">cree3matrices</a></div><div class="ttdeci">void cree3matrices(u16 **mat_bleue, u16 **mat_rouge, u16 **mat_verte, DonneesImageRGB *image)</div><div class="ttdoc">Sépare les composantes RGB d&#39;une image en 3 matrices. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:36</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_afc049c9711553695dfa71cde0506b4ac"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#afc049c9711553695dfa71cde0506b4ac">imageHistogramme</a></div><div class="ttdeci">DonneesImageRGB * imageHistogramme(uint *histo)</div><div class="ttdoc">Crée une représentation graphique (image) de l&#39;histogramme. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:130</div></div>
+<div class="ttc" id="common_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_ac8c4b498bf58c85ccddcb9bd0b56883a"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#ac8c4b498bf58c85ccddcb9bd0b56883a">histo</a></div><div class="ttdeci">uint * histo</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:31</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a74b227d112c3009aa5bd6ee58d015038"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a74b227d112c3009aa5bd6ee58d015038">array_min_idx</a></div><div class="ttdeci">int array_min_idx(int *arr, int size)</div><div class="ttdoc">Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est minimale. </div><div class="ttdef"><b>Definition:</b> utils.c:21</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_ae2507b7ddcdad238a300803c82238c7c"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#ae2507b7ddcdad238a300803c82238c7c">histoCumule</a></div><div class="ttdeci">uint * histoCumule</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:32</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_ad0ee4f0e22b9c540b0ef94bda903a7a9"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#ad0ee4f0e22b9c540b0ef94bda903a7a9">matrice_verte</a></div><div class="ttdeci">u16 ** matrice_verte</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:29</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a6a47806608d658f3d9872a5b57e9ff4a"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">array_max_idx</a></div><div class="ttdeci">int array_max_idx(int *arr, int size)</div><div class="ttdoc">Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. </div><div class="ttdef"><b>Definition:</b> utils.c:28</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_acef9187016e3f7c11c5adc8d5579cb84"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#acef9187016e3f7c11c5adc8d5579cb84">do_PaletteReduction</a></div><div class="ttdeci">void do_PaletteReduction(int level)</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:323</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a048fdd6e780425ee715f31f748a8fc3b"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a048fdd6e780425ee715f31f748a8fc3b">do_GaussienN</a></div><div class="ttdeci">void do_GaussienN(int gaussien_size)</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:254</div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html"><div class="ttname"><a href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a></div><div class="ttdef"><b>Definition:</b> BmpLib.h:12</div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8h_html_a1ce2f5a4c1961ec53ddeaaa55bc3b8b7"><div class="ttname"><a href="_t_d2-_t_d_i_8h.html#a1ce2f5a4c1961ec53ddeaaa55bc3b8b7">choixAction</a></div><div class="ttdeci">void choixAction(int choix)</div><div class="ttdoc">Relatif au menu. </div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:344</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

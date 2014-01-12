@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI: Référence du fichier OutilsLib.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier OutilsLib.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_outils_lib_8h_source.html">OutilsLib.h</a>&quot;</code><br/>
+<code>#include &lt;stdbool.h&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de OutilsLib.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c__incl.png" border="0" usemap="#_outils_lib_8c" alt=""/></div>
+<map name="_outils_lib_8c" id="_outils_lib_8c">
+<area shape="rect" id="node2" href="_outils_lib_8h.html" title="OutilsLib.h" alt="" coords="5,80,88,107"/></map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a9fd5a2b2efae9d35fbe2408e73710692"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692">systemeBigEndian</a> (void)</td></tr>
+<tr class="separator:a9fd5a2b2efae9d35fbe2408e73710692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774c227eb077a596320d0d650e315904"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904">barriereNatif32</a> (int entier)</td></tr>
+<tr class="separator:a774c227eb077a596320d0d650e315904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc8801609e291a0e51fc0ba3d5be839"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#aefc8801609e291a0e51fc0ba3d5be839">barriereNatif16</a> (short entier)</td></tr>
+<tr class="separator:aefc8801609e291a0e51fc0ba3d5be839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583862b5b6bc166ee22c6bf4c71661c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1">little32VersNatif</a> (int little)</td></tr>
+<tr class="separator:a583862b5b6bc166ee22c6bf4c71661c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0d8e9b64e3086d9aabc8cb0c5f37cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb">natif32VersLittle</a> (int natif)</td></tr>
+<tr class="separator:a6c0d8e9b64e3086d9aabc8cb0c5f37cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4ad8926bbf01894ea821187859992b"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#aaa4ad8926bbf01894ea821187859992b">little16VersNatif</a> (short little)</td></tr>
+<tr class="separator:aaa4ad8926bbf01894ea821187859992b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0163d85a5e1b6b87f34b6c6e2ed64ae2"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2">natif16VersLittle</a> (short natif)</td></tr>
+<tr class="separator:a0163d85a5e1b6b87f34b6c6e2ed64ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af690ad0724195c50dcc287c2e955ca20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#af690ad0724195c50dcc287c2e955ca20">big32VersNatif</a> (int big)</td></tr>
+<tr class="separator:af690ad0724195c50dcc287c2e955ca20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bbbcac44ff46064377ccf09f03ec1d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a3bbbcac44ff46064377ccf09f03ec1d2">natif32VersBig</a> (int natif)</td></tr>
+<tr class="separator:a3bbbcac44ff46064377ccf09f03ec1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7209d386d69d4adc0b0584d964628d5d"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#a7209d386d69d4adc0b0584d964628d5d">big16VersNatif</a> (short big)</td></tr>
+<tr class="separator:a7209d386d69d4adc0b0584d964628d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4ca28c0ede9fd75733cce34fcf87d4"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_outils_lib_8c.html#aee4ca28c0ede9fd75733cce34fcf87d4">natif16VersBig</a> (short natif)</td></tr>
+<tr class="separator:aee4ca28c0ede9fd75733cce34fcf87d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a class="anchor" id="aefc8801609e291a0e51fc0ba3d5be839"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static short barriereNatif16 </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>entier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_aefc8801609e291a0e51fc0ba3d5be839_icgraph.png" border="0" usemap="#_outils_lib_8c_aefc8801609e291a0e51fc0ba3d5be839_icgraph" alt=""/></div>
+<map name="_outils_lib_8c_aefc8801609e291a0e51fc0ba3d5be839_icgraph" id="_outils_lib_8c_aefc8801609e291a0e51fc0ba3d5be839_icgraph">
+<area shape="rect" id="node2" href="_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b" title="little16VersNatif" alt="" coords="161,5,276,32"/><area shape="rect" id="node3" href="_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2" title="natif16VersLittle" alt="" coords="161,56,277,83"/><area shape="rect" id="node4" href="_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d" title="big16VersNatif" alt="" coords="165,107,272,133"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a774c227eb077a596320d0d650e315904"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int barriereNatif32 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>entier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a774c227eb077a596320d0d650e315904_icgraph.png" border="0" usemap="#_outils_lib_8c_a774c227eb077a596320d0d650e315904_icgraph" alt=""/></div>
+<map name="_outils_lib_8c_a774c227eb077a596320d0d650e315904_icgraph" id="_outils_lib_8c_a774c227eb077a596320d0d650e315904_icgraph">
+<area shape="rect" id="node2" href="_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="161,5,276,32"/><area shape="rect" id="node6" href="_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="161,56,277,83"/><area shape="rect" id="node9" href="_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20" title="big32VersNatif" alt="" coords="165,107,272,133"/><area shape="rect" id="node10" href="_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2" title="natif32VersBig" alt="" coords="165,157,272,184"/><area shape="rect" id="node11" href="_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4" title="natif16VersBig" alt="" coords="165,208,272,235"/><area shape="rect" id="node3" href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="351,5,443,32"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="573,5,640,32"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="745,5,845,32"/><area shape="rect" id="node7" href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="325,56,469,83"/><area shape="rect" id="node8" href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="517,56,696,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7209d386d69d4adc0b0584d964628d5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short big16VersNatif </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>big</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a7209d386d69d4adc0b0584d964628d5d_cgraph.png" border="0" usemap="#_outils_lib_8c_a7209d386d69d4adc0b0584d964628d5d_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_a7209d386d69d4adc0b0584d964628d5d_cgraph" id="_outils_lib_8c_a7209d386d69d4adc0b0584d964628d5d_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="160,5,291,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#aefc8801609e291a0e51fc0ba3d5be839" title="barriereNatif16" alt="" coords="172,56,279,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af690ad0724195c50dcc287c2e955ca20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int big32VersNatif </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>big</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_af690ad0724195c50dcc287c2e955ca20_cgraph.png" border="0" usemap="#_outils_lib_8c_af690ad0724195c50dcc287c2e955ca20_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_af690ad0724195c50dcc287c2e955ca20_cgraph" id="_outils_lib_8c_af690ad0724195c50dcc287c2e955ca20_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="160,5,291,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="172,56,279,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa4ad8926bbf01894ea821187859992b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short little16VersNatif </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>little</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_aaa4ad8926bbf01894ea821187859992b_cgraph.png" border="0" usemap="#_outils_lib_8c_aaa4ad8926bbf01894ea821187859992b_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_aaa4ad8926bbf01894ea821187859992b_cgraph" id="_outils_lib_8c_aaa4ad8926bbf01894ea821187859992b_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="168,5,299,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#aefc8801609e291a0e51fc0ba3d5be839" title="barriereNatif16" alt="" coords="180,56,287,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a583862b5b6bc166ee22c6bf4c71661c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int little32VersNatif </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>little</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_cgraph.png" border="0" usemap="#_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_cgraph" id="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="168,5,299,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="180,56,287,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_icgraph.png" border="0" usemap="#_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_icgraph" alt=""/></div>
+<map name="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_icgraph" id="_outils_lib_8c_a583862b5b6bc166ee22c6bf4c71661c1_icgraph">
+<area shape="rect" id="node2" href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="169,5,261,32"/><area shape="rect" id="node3" href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="309,5,376,32"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="425,5,525,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aee4ca28c0ede9fd75733cce34fcf87d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short natif16VersBig </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>natif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_aee4ca28c0ede9fd75733cce34fcf87d4_cgraph.png" border="0" usemap="#_outils_lib_8c_aee4ca28c0ede9fd75733cce34fcf87d4_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_aee4ca28c0ede9fd75733cce34fcf87d4_cgraph" id="_outils_lib_8c_aee4ca28c0ede9fd75733cce34fcf87d4_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="160,5,291,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="172,56,279,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0163d85a5e1b6b87f34b6c6e2ed64ae2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short natif16VersLittle </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>natif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a0163d85a5e1b6b87f34b6c6e2ed64ae2_cgraph.png" border="0" usemap="#_outils_lib_8c_a0163d85a5e1b6b87f34b6c6e2ed64ae2_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_a0163d85a5e1b6b87f34b6c6e2ed64ae2_cgraph" id="_outils_lib_8c_a0163d85a5e1b6b87f34b6c6e2ed64ae2_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="171,5,301,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#aefc8801609e291a0e51fc0ba3d5be839" title="barriereNatif16" alt="" coords="183,56,289,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3bbbcac44ff46064377ccf09f03ec1d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int natif32VersBig </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>natif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a3bbbcac44ff46064377ccf09f03ec1d2_cgraph.png" border="0" usemap="#_outils_lib_8c_a3bbbcac44ff46064377ccf09f03ec1d2_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_a3bbbcac44ff46064377ccf09f03ec1d2_cgraph" id="_outils_lib_8c_a3bbbcac44ff46064377ccf09f03ec1d2_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="160,5,291,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="172,56,279,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c0d8e9b64e3086d9aabc8cb0c5f37cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int natif32VersLittle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>natif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_cgraph.png" border="0" usemap="#_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_cgraph" alt=""/></div>
+<map name="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_cgraph" id="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_cgraph">
+<area shape="rect" id="node2" href="_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="171,5,301,32"/><area shape="rect" id="node3" href="_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="183,56,289,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_icgraph.png" border="0" usemap="#_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_icgraph" alt=""/></div>
+<map name="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_icgraph" id="_outils_lib_8c_a6c0d8e9b64e3086d9aabc8cb0c5f37cb_icgraph">
+<area shape="rect" id="node2" href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="171,5,315,32"/><area shape="rect" id="node3" href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="363,5,541,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fd5a2b2efae9d35fbe2408e73710692"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool systemeBigEndian </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_outils_lib_8c_a9fd5a2b2efae9d35fbe2408e73710692_icgraph.png" border="0" usemap="#_outils_lib_8c_a9fd5a2b2efae9d35fbe2408e73710692_icgraph" alt=""/></div>
+<map name="_outils_lib_8c_a9fd5a2b2efae9d35fbe2408e73710692_icgraph" id="_outils_lib_8c_a9fd5a2b2efae9d35fbe2408e73710692_icgraph">
+<area shape="rect" id="node2" href="_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="185,5,300,32"/><area shape="rect" id="node6" href="_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="185,56,301,83"/><area shape="rect" id="node9" href="_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b" title="little16VersNatif" alt="" coords="185,107,300,133"/><area shape="rect" id="node10" href="_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2" title="natif16VersLittle" alt="" coords="185,157,301,184"/><area shape="rect" id="node11" href="_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20" title="big32VersNatif" alt="" coords="189,208,296,235"/><area shape="rect" id="node12" href="_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2" title="natif32VersBig" alt="" coords="189,259,296,285"/><area shape="rect" id="node13" href="_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d" title="big16VersNatif" alt="" coords="189,309,296,336"/><area shape="rect" id="node14" href="_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4" title="natif16VersBig" alt="" coords="189,360,296,387"/><area shape="rect" id="node3" href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="375,5,467,32"/><area shape="rect" id="node4" href="_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="597,5,664,32"/><area shape="rect" id="node5" href="_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="769,5,869,32"/><area shape="rect" id="node7" href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="349,56,493,83"/><area shape="rect" id="node8" href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="541,56,720,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

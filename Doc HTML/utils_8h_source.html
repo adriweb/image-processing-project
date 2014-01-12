@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI:  Fichier source de utils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">utils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="utils_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __UTILS_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __UTILS_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="common_8h.html">common.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="utils_8h.html#a70984b5f46b2b422f9b9b7e884c5da54">getLatestSavedImageName</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#a3e6055fa50e77005c009ba235708872d">strEndsWith</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *str, <span class="keyword">const</span> <span class="keywordtype">char</span> *suffix);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#a74b227d112c3009aa5bd6ee58d015038">array_min_idx</a>(<span class="keywordtype">int</span>* arr, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">array_max_idx</a>(<span class="keywordtype">int</span>* arr, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">saveBMPwithCurrentName</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> * <a class="code" href="_t_d2-_t_d_i_8c.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>, <span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="_t_d2-_t_d_i_8c_html_aec77693c2fc48decf2d7da8013cbbdd3"><div class="ttname"><a href="_t_d2-_t_d_i_8c.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a></div><div class="ttdeci">DonneesImageRGB * image</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:21</div></div>
+<div class="ttc" id="utils_8h_html_a70984b5f46b2b422f9b9b7e884c5da54"><div class="ttname"><a href="utils_8h.html#a70984b5f46b2b422f9b9b7e884c5da54">getLatestSavedImageName</a></div><div class="ttdeci">char * getLatestSavedImageName()</div><div class="ttdoc">Getter pour le wrapper C++. </div><div class="ttdef"><b>Definition:</b> utils.c:7</div></div>
+<div class="ttc" id="utils_8h_html_a74b227d112c3009aa5bd6ee58d015038"><div class="ttname"><a href="utils_8h.html#a74b227d112c3009aa5bd6ee58d015038">array_min_idx</a></div><div class="ttdeci">int array_min_idx(int *arr, int size)</div><div class="ttdoc">Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est minimale. </div><div class="ttdef"><b>Definition:</b> utils.c:21</div></div>
+<div class="ttc" id="utils_8h_html_a2429a50c6d2e2346df13fb65f9a1e405"><div class="ttname"><a href="utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405">saveBMPwithCurrentName</a></div><div class="ttdeci">void saveBMPwithCurrentName(DonneesImageRGB *image, const char *name)</div><div class="ttdef"><b>Definition:</b> utils.c:35</div></div>
+<div class="ttc" id="common_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="utils_8h_html_a3e6055fa50e77005c009ba235708872d"><div class="ttname"><a href="utils_8h.html#a3e6055fa50e77005c009ba235708872d">strEndsWith</a></div><div class="ttdeci">int strEndsWith(const char *str, const char *suffix)</div><div class="ttdef"><b>Definition:</b> utils.c:11</div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html"><div class="ttname"><a href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a></div><div class="ttdef"><b>Definition:</b> BmpLib.h:12</div></div>
+<div class="ttc" id="utils_8h_html_a6a47806608d658f3d9872a5b57e9ff4a"><div class="ttname"><a href="utils_8h.html#a6a47806608d658f3d9872a5b57e9ff4a">array_max_idx</a></div><div class="ttdeci">int array_max_idx(int *arr, int size)</div><div class="ttdoc">Renvoie l&#39;indice de l&#39;élément du tableau d&#39;entiers dont la valeur est maximale. </div><div class="ttdef"><b>Definition:</b> utils.c:28</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Projet-TDI:  Fichier source de watershed.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet-TDI
+   &#160;<span id="projectnumber">3.2</span>
+   </div>
+   <div id="projectbrief">Quelques fonctions de traitement d&#39;image</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">watershed.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="watershed_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __WATERSHED_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __WATERSHED_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="common_8h.html">common.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef UINT_MAX </span></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="watershed_8h.html#ac998ea02fbd821fc123d60445ce76f38">    7</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define UINT_MAX    (uint)(-1)</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="watershed_8h.html#a0c03a5d5ba62331ddde96b3e6b9e4afd">    9</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define label_collision UINT_MAX</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23">   14</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23">_minmap_props</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af919f17a1acd72b770bf7d12a4dff625">   15</a></span>&#160;    <a class="code" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af919f17a1acd72b770bf7d12a4dff625">mm_default</a> = 0, <span class="comment">// 0 (default by calloc)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23a9ba9c4278651af1262b4e8e5cf08da75">   16</a></span>&#160;    <a class="code" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23a9ba9c4278651af1262b4e8e5cf08da75">mm_minimum</a> = 255,</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af8a191dbca29bc23e53dc073047c0caf">   17</a></span>&#160;    <a class="code" href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af8a191dbca29bc23e53dc073047c0caf">mm_plateau</a> = 128</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;} <a class="code" href="watershed_8h.html#a330a1fe758c291cf819edb24d2616546">minmap_props</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="struct__floodpoint.html">   23</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__floodpoint.html">_floodpoint</a> {</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="struct__floodpoint.html#af36dfff166c5ea27bae7c2bbf03c946f">   24</a></span>&#160;    <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> <a class="code" href="struct__floodpoint.html#af36dfff166c5ea27bae7c2bbf03c946f">label</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="struct__floodpoint.html#a9530e1e393763277fa4e373d996a2142">   25</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct__floodpoint.html#a9530e1e393763277fa4e373d996a2142">isNew</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;} <a class="code" href="watershed_8h.html#a4c5903ba30cda54e1f6316202f1a9f9b">floodpoint</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">   28</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="struct__floodpoint.html">floodpoint</a>** <a class="code" href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** <a class="code" href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f">getMinima</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>** <a class="code" href="watershed_8h.html#a0cd89a1892813868dbc0de56a80dfdcf">getNeighbors</a>(<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>** src, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> x, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> y);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> <a class="code" href="watershed_8h.html#abf7225d35b3bcf670fa4b11a0dcc071a">image_flooding_overlay</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* <a class="code" href="_t_d2-_t_d_i_8c.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a>, <a class="code" href="struct__floodpoint.html">floodmap</a> watershed_mask);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>** <a class="code" href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583">old_ws_flooding</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="watershed_8h.html#abe37a2f43ae7501ab92bf4d04ddad62a">ws_water_grow</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src, <a class="code" href="struct__floodpoint.html">floodmap</a> map, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <a class="code" href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> label);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<a class="code" href="struct__floodpoint.html">floodmap</a> <a class="code" href="watershed_8h.html#a6abd3aeb667b14f6a43d663b648dcdc8">ws_flooding</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>** src);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">void</span> <a class="code" href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f">watershed</a>(<a class="code" href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> ** src, <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>* img);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="watershed_8h_html_a555d4548123e372633b2bbe15d2bbe23af8a191dbca29bc23e53dc073047c0caf"><div class="ttname"><a href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af8a191dbca29bc23e53dc073047c0caf">mm_plateau</a></div><div class="ttdef"><b>Definition:</b> watershed.h:17</div></div>
+<div class="ttc" id="watershed_8h_html_a555d4548123e372633b2bbe15d2bbe23af919f17a1acd72b770bf7d12a4dff625"><div class="ttname"><a href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23af919f17a1acd72b770bf7d12a4dff625">mm_default</a></div><div class="ttdef"><b>Definition:</b> watershed.h:15</div></div>
+<div class="ttc" id="common_8h_html_a91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="common_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> common.h:27</div></div>
+<div class="ttc" id="watershed_8h_html_a77505c95e394a38b7524cd86568fca4f"><div class="ttname"><a href="watershed_8h.html#a77505c95e394a38b7524cd86568fca4f">getMinima</a></div><div class="ttdeci">u16 ** getMinima(u16 **src)</div><div class="ttdoc">Retourne un tableau de &quot;marqueurs&quot; où se trouvent les minima et plateaux de l&#39;image source (niveau-...</div><div class="ttdef"><b>Definition:</b> watershed.c:65</div></div>
+<div class="ttc" id="struct__floodpoint_html"><div class="ttname"><a href="struct__floodpoint.html">_floodpoint</a></div><div class="ttdoc">propriétés de chaque point pour la floodmap </div><div class="ttdef"><b>Definition:</b> watershed.h:23</div></div>
+<div class="ttc" id="watershed_8h_html_a6a682d177cea851ab1416b0964f09a9f"><div class="ttname"><a href="watershed_8h.html#a6a682d177cea851ab1416b0964f09a9f">watershed</a></div><div class="ttdeci">void watershed(u16 **src, DonneesImageRGB *img)</div><div class="ttdoc">appelant de l&#39;algo du watershed </div><div class="ttdef"><b>Definition:</b> watershed.c:250</div></div>
+<div class="ttc" id="watershed_8h_html_abf7225d35b3bcf670fa4b11a0dcc071a"><div class="ttname"><a href="watershed_8h.html#abf7225d35b3bcf670fa4b11a0dcc071a">image_flooding_overlay</a></div><div class="ttdeci">void image_flooding_overlay(DonneesImageRGB *image, floodmap watershed_mask)</div><div class="ttdoc">Dessine le &quot;masque&quot; du watershed par dessus l&#39;image donnée. </div><div class="ttdef"><b>Definition:</b> watershed.c:100</div></div>
+<div class="ttc" id="watershed_8h_html_a330a1fe758c291cf819edb24d2616546"><div class="ttname"><a href="watershed_8h.html#a330a1fe758c291cf819edb24d2616546">minmap_props</a></div><div class="ttdeci">enum _minmap_props minmap_props</div><div class="ttdoc">(obsolete) différentes valeurs pour la minmap </div></div>
+<div class="ttc" id="_t_d2-_t_d_i_8c_html_aec77693c2fc48decf2d7da8013cbbdd3"><div class="ttname"><a href="_t_d2-_t_d_i_8c.html#aec77693c2fc48decf2d7da8013cbbdd3">image</a></div><div class="ttdeci">DonneesImageRGB * image</div><div class="ttdef"><b>Definition:</b> TD2-TDI.c:21</div></div>
+<div class="ttc" id="watershed_8h_html_ad7a708e02d06b89cb9c5c3ef0dbe1583"><div class="ttname"><a href="watershed_8h.html#ad7a708e02d06b89cb9c5c3ef0dbe1583">old_ws_flooding</a></div><div class="ttdeci">uint ** old_ws_flooding(u16 **src)</div><div class="ttdoc">(obsolete) différentes valeurs pour la minmap </div><div class="ttdef"><b>Definition:</b> watershed.c:146</div></div>
+<div class="ttc" id="common_8h_html_aa0b167025ed1eead1300bc4dbdfb230e"><div class="ttname"><a href="common_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></div><div class="ttdeci">unsigned short int u16</div><div class="ttdef"><b>Definition:</b> common.h:26</div></div>
+<div class="ttc" id="watershed_8h_html_a555d4548123e372633b2bbe15d2bbe23a9ba9c4278651af1262b4e8e5cf08da75"><div class="ttname"><a href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23a9ba9c4278651af1262b4e8e5cf08da75">mm_minimum</a></div><div class="ttdef"><b>Definition:</b> watershed.h:16</div></div>
+<div class="ttc" id="watershed_8h_html_a4c5903ba30cda54e1f6316202f1a9f9b"><div class="ttname"><a href="watershed_8h.html#a4c5903ba30cda54e1f6316202f1a9f9b">floodpoint</a></div><div class="ttdeci">struct _floodpoint floodpoint</div><div class="ttdoc">propriétés de chaque point pour la floodmap </div></div>
+<div class="ttc" id="struct__floodpoint_html_af36dfff166c5ea27bae7c2bbf03c946f"><div class="ttname"><a href="struct__floodpoint.html#af36dfff166c5ea27bae7c2bbf03c946f">_floodpoint::label</a></div><div class="ttdeci">uint label</div><div class="ttdef"><b>Definition:</b> watershed.h:24</div></div>
+<div class="ttc" id="watershed_8h_html_a555d4548123e372633b2bbe15d2bbe23"><div class="ttname"><a href="watershed_8h.html#a555d4548123e372633b2bbe15d2bbe23">_minmap_props</a></div><div class="ttdeci">_minmap_props</div><div class="ttdoc">(obsolete) différentes valeurs pour la minmap </div><div class="ttdef"><b>Definition:</b> watershed.h:14</div></div>
+<div class="ttc" id="watershed_8h_html_a6abd3aeb667b14f6a43d663b648dcdc8"><div class="ttname"><a href="watershed_8h.html#a6abd3aeb667b14f6a43d663b648dcdc8">ws_flooding</a></div><div class="ttdeci">floodmap ws_flooding(u16 **src)</div><div class="ttdoc">essai d&#39;algo de watershed </div><div class="ttdef"><b>Definition:</b> watershed.c:223</div></div>
+<div class="ttc" id="watershed_8h_html_a0cd89a1892813868dbc0de56a80dfdcf"><div class="ttname"><a href="watershed_8h.html#a0cd89a1892813868dbc0de56a80dfdcf">getNeighbors</a></div><div class="ttdeci">uint ** getNeighbors(uint **src, uint x, uint y)</div><div class="ttdoc">Crée un tableau des points voisins au point donné </div><div class="ttdef"><b>Definition:</b> watershed.c:11</div></div>
+<div class="ttc" id="watershed_8h_html_ac520e142f8149c2d5beb33163d567121"><div class="ttname"><a href="watershed_8h.html#ac520e142f8149c2d5beb33163d567121">floodmap</a></div><div class="ttdeci">floodpoint ** floodmap</div><div class="ttdef"><b>Definition:</b> watershed.h:28</div></div>
+<div class="ttc" id="watershed_8h_html_abe37a2f43ae7501ab92bf4d04ddad62a"><div class="ttname"><a href="watershed_8h.html#abe37a2f43ae7501ab92bf4d04ddad62a">ws_water_grow</a></div><div class="ttdeci">void ws_water_grow(u16 **src, floodmap map, int x, int y, uint label)</div><div class="ttdoc">montée de l&#39;eau </div><div class="ttdef"><b>Definition:</b> watershed.c:193</div></div>
+<div class="ttc" id="struct__floodpoint_html_a9530e1e393763277fa4e373d996a2142"><div class="ttname"><a href="struct__floodpoint.html#a9530e1e393763277fa4e373d996a2142">_floodpoint::isNew</a></div><div class="ttdeci">bool isNew</div><div class="ttdef"><b>Definition:</b> watershed.h:25</div></div>
+<div class="ttc" id="common_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html"><div class="ttname"><a href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a></div><div class="ttdef"><b>Definition:</b> BmpLib.h:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 12 Janvier 2014 19:19:15 pour Projet-TDI par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

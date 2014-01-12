@@ -1,0 +1,15 @@
+<map id="systemeBigEndian" name="systemeBigEndian">
+<area shape="rect" id="node2" href="$_outils_lib_8h.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="185,5,300,32"/>
+<area shape="rect" id="node6" href="$_outils_lib_8h.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="185,56,301,83"/>
+<area shape="rect" id="node9" href="$_outils_lib_8h.html#aaa4ad8926bbf01894ea821187859992b" title="little16VersNatif" alt="" coords="185,107,300,133"/>
+<area shape="rect" id="node10" href="$_outils_lib_8h.html#a0163d85a5e1b6b87f34b6c6e2ed64ae2" title="natif16VersLittle" alt="" coords="185,157,301,184"/>
+<area shape="rect" id="node11" href="$_outils_lib_8h.html#af690ad0724195c50dcc287c2e955ca20" title="big32VersNatif" alt="" coords="189,208,296,235"/>
+<area shape="rect" id="node12" href="$_outils_lib_8h.html#a3bbbcac44ff46064377ccf09f03ec1d2" title="natif32VersBig" alt="" coords="189,259,296,285"/>
+<area shape="rect" id="node13" href="$_outils_lib_8h.html#a7209d386d69d4adc0b0584d964628d5d" title="big16VersNatif" alt="" coords="189,309,296,336"/>
+<area shape="rect" id="node14" href="$_outils_lib_8h.html#aee4ca28c0ede9fd75733cce34fcf87d4" title="natif16VersBig" alt="" coords="189,360,296,387"/>
+<area shape="rect" id="node3" href="$_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="375,5,467,32"/>
+<area shape="rect" id="node4" href="$_t_d2-_t_d_i_8h.html#aa0fea0eef7c578515efb288601398016" title="Initialise les données de base. " alt="" coords="597,5,664,32"/>
+<area shape="rect" id="node5" href="$_t_d2-_t_d_i_8h.html#a964db043ce460565b098e3c7cbd94dc0" title="main au nom variable selon la compilation en console ou en GUI " alt="" coords="769,5,869,32"/>
+<area shape="rect" id="node7" href="$_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="349,56,493,83"/>
+<area shape="rect" id="node8" href="$utils_8h.html#a2429a50c6d2e2346df13fb65f9a1e405" title="saveBMPwithCurrentName" alt="" coords="541,56,720,83"/>
+</map>

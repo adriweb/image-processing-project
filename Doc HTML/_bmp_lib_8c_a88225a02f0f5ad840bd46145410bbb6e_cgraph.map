@@ -1,0 +1,6 @@
+<map id="lisBMPRGB" name="lisBMPRGB">
+<area shape="rect" id="node2" href="$_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="155,31,269,57"/>
+<area shape="rect" id="node5" href="$_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="147,81,277,108"/>
+<area shape="rect" id="node3" href="$_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="325,5,456,32"/>
+<area shape="rect" id="node4" href="$_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="337,56,444,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="saveBMPwithCurrentName" name="saveBMPwithCurrentName">
+<area shape="rect" id="node2" href="$_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="232,31,376,57"/>
+<area shape="rect" id="node3" href="$_bmp_lib_8c.html#a1c400fb04d98141493e0a0207821d81c" title="tailleScanLineRGB" alt="" coords="424,5,555,32"/>
+<area shape="rect" id="node4" href="$_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="431,56,547,83"/>
+<area shape="rect" id="node5" href="$_outils_lib_8c.html#a9fd5a2b2efae9d35fbe2408e73710692" title="systemeBigEndian" alt="" coords="603,31,733,57"/>
+<area shape="rect" id="node6" href="$_outils_lib_8c.html#a774c227eb077a596320d0d650e315904" title="barriereNatif32" alt="" coords="615,81,721,108"/>
+</map>
